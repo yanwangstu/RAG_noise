@@ -2,10 +2,10 @@ from openai import OpenAI
 
 
 # constant
-MAX_NEW_TOKENS = 500
+MAX_NEW_TOKENS = 600
 MODEL_NAME_DICT = {"Llama-3.1-70B": 
                    {"base_url": "", 
-                    "model_id": "", 
+                    "model_id": "llama3.1-70b-instruct", 
                     "api_key": ""},
 
                     # 阿里云百炼 https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.27ba516ecCpHkQ&accounttraceid=f54baffa43d5411a8c27405d70adde94qoxh#/model-market/detail/qwen2.5-72b-instruct

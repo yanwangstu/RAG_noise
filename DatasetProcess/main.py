@@ -107,7 +107,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     filePathRead = f'NQ_dataset/v1.0/train/nq-train-{args.num}.jsonl'
-    filePathWrite = f'newData/nq-train-{args.num}.json'
+    filePathWrite = f'dataset/nq-train-{args.num}.json'
 
     # ==================================================== #
     # filePathRead = '/data1/wangyan/Dataset Process/originData/nq-train-sample.jsonl'

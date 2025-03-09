@@ -3,10 +3,12 @@
 
 # 忽略特定目录下的所有文件
 /DatasetProcess/logs/
-/DatasetProcess/newData/
 /DatasetProcess/NQ_dataset/
-/DatasetProcess/data_add_irrelevant/
+/DatasetProcess/dataset/
+/DatasetProcess/dataset_add_irrelevant/
+/DatasetProcess/testbed/
 /CRAG-main/
+/BaselineFramework/ExperimentResult/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

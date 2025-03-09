@@ -6,7 +6,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 
 # constant
-MAX_NEW_TOKENS = 500
+MAX_NEW_TOKENS = 600
 MIN_NEW_TOKENS = 1
 MODEL_PATH_DICT = {"Qwen2.5-7B": "/datanfs2/zyx/model_cache/qwen/Qwen2___5-7B-Instruct", 
                    "Llama-3.1-8B": "/datanfs2/zyx/model_cache/LLM-Research/Meta-Llama-3___1-8B-Instruct"}

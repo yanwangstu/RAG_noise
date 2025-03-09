@@ -87,8 +87,8 @@ def data_finetuning(filePathsRead: str, filePathWrite: str, irrelevant_documents
 if __name__ == "__main__":
 
     # read files list
-    FILE_PATHS_READ = [f'newData/nq-train-{i:02d}.json' for i in range(14)]
+    FILE_PATHS_READ = [f'dataset/nq-train-{i:02d}.json' for i in range(14)]
     # write files template
-    FILE_PATH_WRITE = 'data_add_irrelevant/level_2_20000/level_2_20000_{ID}.json'
+    FILE_PATH_WRITE = 'dataset_add_irrelevant/level_2_20000/level_2_20000_{ID}.json'
     IRRELEVANT_DOCUMENTS_NUM = 7
     data_finetuning(FILE_PATHS_READ, FILE_PATH_WRITE, IRRELEVANT_DOCUMENTS_NUM)
