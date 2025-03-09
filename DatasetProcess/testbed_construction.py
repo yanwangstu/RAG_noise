@@ -31,10 +31,10 @@ def testbed_construction(
     successed_counstruction = 0
 
     for sample in data:
-        if successed_counstruction == 10:
-            break
+        # if successed_counstruction == 10:
+        #    break
         try:
-            new_sample = []
+            new_sample = {}
             new_sample["QID"] = sample["QID"]
 
             # process each doc_type
@@ -50,12 +50,14 @@ def testbed_construction(
             successed_counstruction += 1
         except Exception as e:
             print(f"error occures during the process：{str(e)}")
-            raise
 
-    
     # write processed data
     with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(processed_data, file, ensure_ascii=False, indent=2)
+        json.dump(processed_data, file, ensure_ascii=False, indent=4)
+    
+    print(f"successed_counstruction samples: {successed_counstruction}")
+
+    return
 
 
 # usage example

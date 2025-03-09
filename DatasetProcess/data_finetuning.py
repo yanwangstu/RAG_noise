@@ -64,6 +64,7 @@ def data_finetuning(filePathsRead: str, filePathWrite: str, irrelevant_documents
         data = file_contents[fileRead]
         data_num = len(data)
         pbar = tqdm(total=data_num, desc=f"Samples in {fileRead} already Processed")
+
         for i in range(data_num):
             irrelevant_documents = irrelevant_documents_generation(file_contents, fileRead, irrelevant_documents_num)
             filtered_QID_data = {k: v for k, v in data[i].items() if k != "QID"}
@@ -79,8 +80,10 @@ def data_finetuning(filePathsRead: str, filePathWrite: str, irrelevant_documents
                 json.dump(new_data, open(filePathWrite.format(ID=file_count), "w", encoding='utf-8'), indent=4, ensure_ascii=False)
                 new_data = []
                 file_count += 1
+
     if id_count%6000 != 0:
         json.dump(new_data, open(filePathWrite.format(ID=file_count), "w", encoding='utf-8'), indent=4, ensure_ascii=False)
+        
     print(f"Total data num: {id_count}")
 
 
