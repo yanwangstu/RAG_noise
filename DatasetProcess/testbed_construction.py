@@ -31,11 +31,13 @@ def testbed_construction(
     successed_counstruction = 0
 
     for sample in data:
-        # if successed_counstruction == 10:
-        #    break
+        if successed_counstruction == 10:
+           break
         try:
             new_sample = {}
             new_sample["QID"] = sample["QID"]
+            new_sample["Question"] = sample["Question"]
+            new_sample["Answers"] = sample["Answers"]
 
             # process each doc_type
             for doc_type, count in sample_counts.items():
@@ -64,14 +66,14 @@ def testbed_construction(
 if __name__ == "__main__":
     sample_config = {
         "Golden Documents": 1,
-        "Distracting Documents": 0,
-        "Inconsequential Documents": 0,
-        "Low Quality Documents": 0,
-        "Irrelevant Documents": 0
+        "Distracting Documents": 2,
+        "Inconsequential Documents": 2,
+        "Low Quality Documents": 2,
+        "Irrelevant Documents": 1
     }
 
     testbed_construction(
         input_file="dataset_add_irrelevant/level_1_6000/level_1_6000.json",
-        output_file="testbed/G1.json",
+        output_file="testbed/example.json",
         sample_counts=sample_config
     )

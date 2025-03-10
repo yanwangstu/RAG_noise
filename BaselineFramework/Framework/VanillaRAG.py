@@ -1,5 +1,3 @@
-import sys
-sys.path.append("..")
 from PoisonousMushroom.Generator import Generator, GeneratorOutput
 from PoisonousMushroom.GeneratorAPI import GeneratorAPI
 

@@ -1,5 +1,3 @@
-import sys
-sys.path.append("..")
 from torch import FloatTensor, Tensor
 from PoisonousMushroom.Generator import Generator, GeneratorOutput
 import torch
