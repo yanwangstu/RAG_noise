@@ -2,8 +2,9 @@ from dataclasses import dataclass
 from torch import FloatTensor, LongTensor, Tensor
 from modelscope import AutoTokenizer, AutoModelForCausalLM
 from transformers.generation.utils import GenerateDecoderOnlyOutput
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+import torch
+# import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # constant
 MAX_NEW_TOKENS = 600
@@ -28,12 +29,15 @@ class GeneratorOutput:
 
 
 class Generator:
-    def __init__(self, model_name: str):
+    def __init__(self, model_name: str, device: str|None=None):
         """
         when the model_name is None, 
         only use the message_generate function and use API to get the response
         """
         if model_name is not None:
+            # set GPU device
+            self.device = device
+
             # choose the model path through model name
             model_path = MODEL_PATH_DICT[model_name]
 
@@ -43,12 +47,30 @@ class Generator:
             # load model
             self.model = AutoModelForCausalLM.from_pretrained(
                 model_path,
-                torch_dtype="auto",
-                device_map='auto',
+                torch_dtype="bfloat16",
+                device_map=self.device,
                 attn_implementation="eager")
             self.model.config.pad_token_id = self.model.config.eos_token_id
+
+    # SKR -- message generate: Check if adding information is necessary
+    def message_generate_additionINFO(self, question: str):
+        task_descripition = """Task Description: 
+        Do you need additional information to answer this question?
+        if you need, please answer: \"Yes, I need.\"
+        if you don't need, please answer: \"No, I don’t need.\"
+        Do not answer questions and explain reasons.
+        """
+
+        formatted_question = f"Question: {question}"
+        
+        messages = [
+                {"role": "system", "content": task_descripition},
+                {"role": "user", "content": formatted_question},
+            ]
+        return messages
+
             
-    # No RAG QA-- input message generate
+    # No RAG QA -- input message generate
     def message_generate_base(self, question: str) -> list[dict]:
         task_descripition = """Task Description: 
         1. Answer the given Question Directly, do NOT add any explanations when giving the response.
@@ -63,7 +85,7 @@ class Generator:
             ]
         return messages
 
-    # Basic RAG QA (without Chain-of-Note) -- input message generate
+    # RAG QA (without Chain-of-Note) -- input message generate
     def message_generate_baseRAG(self, question: str, docs: list[str]) -> list[dict]:
         task_descripition = """Task Description: 
         1. Answer the given Question based on the Retrieval Documents, do NOT add any explanations when giving the response.
@@ -103,17 +125,6 @@ class Generator:
             ]
         return messages
 
-    # llm answer VS correct_answer evaluation -- input message generate
-    def message_generate_evaluation(self, correct_answer: str, llm_answer: str) -> list[dict]:
-        task_descripition = "xxx"
-        answers = ", ".join([correct_answer, llm_answer])
-
-        messages = [
-                {"role": "system", "content": task_descripition},
-                {"role": "user", "content": answers}
-            ]
-        return messages
-
     # generate the output based on the message
     # if return_info is True, addition info beyond output_text can be extracted
     def generator(
@@ -134,6 +145,7 @@ class Generator:
         model_inputs = self.tokenizer([input_text], return_tensors="pt").to(self.model.device)
         input_ids = model_inputs.input_ids
         input_ids_length = input_ids.shape[1]
+        # print("input_ids_length", input_ids_length)
 
         # generate output_text directly
         if not return_info:
@@ -143,7 +155,8 @@ class Generator:
                 # new_tokens excludes the input token, only generated tokens is taken into consideration
                 max_new_tokens=MAX_NEW_TOKENS,
                 pad_token_id=self.tokenizer.eos_token_id,
-                min_new_tokens=MIN_NEW_TOKENS
+                min_new_tokens=MIN_NEW_TOKENS,
+                use_cache=True
             )[0, input_ids_length:]
             outputs_ids: LongTensor
 
@@ -167,7 +180,8 @@ class Generator:
                 return_dict_in_generate=True,
                 max_new_tokens=MAX_NEW_TOKENS,
                 min_new_tokens=MIN_NEW_TOKENS,
-                output_scores=True
+                output_scores=True,
+                use_cache=False
             )
             outputs: GenerateDecoderOnlyOutput
 
@@ -185,7 +199,10 @@ class Generator:
             outputs_scores = outputs.scores
 
             # get the output attention through re-input the output into the LLM
-            outputs_attention = self.model(outputs.sequences[:, input_ids_length:], output_attentions=True).attentions
+            # outputs_attention = self.model(outputs.sequences[:, input_ids_length:], output_attentions=True).attentions
+            outputs_attention = [layer_attn[-1] for layer_attn in outputs.attentions]
+
+            torch.cuda.empty_cache()
 
             return GeneratorOutput(
                 output_text=output_text,
@@ -203,10 +220,10 @@ if __name__ == "__main__":
     docs = ["In Greek mythology, Aphrodite (/ˌæfrəˈdaɪti/; Greek: Ἀφροδίτη), also called Cytherea (/sɪθəˈriːə/; 'the foam-born'), is the daughter of Zeus and Dione and is the queen of love and beauty. Homer describes her as the enchanting, graceful goddess of desire, who influences the hearts of gods and mortals alike. Aphrodite was married to Hephaestus, the god of fire and craftsmanship. The myth of her birth from the sea foam represents her function as the personification of beauty and love, which blossoms in spring and fades with the changing seasons; hence, she is also associated with spring as well as the allure of nature. Similar myths appear in the Orient, in the cults of female deities like Ishtar, Astarte, and Inanna, and in ancient Mesopotamia.",
             "In Greek mythology, Artemis (/ˈɑːrtɪmɪs/; Greek: Ἄρτεμις), also called Cynthia (/ˈsɪnθiə/; 'the moon goddess'), is the daughter of Zeus and Leto and is the queen of the hunt and wilderness. Homer describes her as the fierce, independent protector of the natural world, who roams the forests with her bow and arrows. Artemis was associated with Apollo, the god of the sun and prophecy. The myth of her birth on the island of Delos represents her function as the personification of the untamed wilderness, which thrives in spring and recedes in winter; hence, she is also associated with spring as well as the vitality of nature. Similar myths appear in the Orient, in the cults of hunting deities like Diana, Skadi, and Arduinna, and in ancient Anatolia.",
             "In Greek mythology, Hestia (/ˈhɛstiə/; Greek: Ἑστία), also called Vesta (/ˈvɛstə/; 'the hearth goddess'), is the daughter of Cronus and Rhea and is the queen of the hearth and home. Homer describes her as the gentle, protective guardian of domestic life, who maintains the sacred fire. Hestia was associated with Zeus, the king of the gods. The myth of her eternal virginity represents her function as the personification of the hearth, which warms in spring and sustains through the seasons; hence, she is also associated with spring as well as the comfort of home. Similar myths appear in the Orient, in the cults of hearth deities like Vesta, Brigid, and Hestia, and in ancient Rome."
-            ]    
+            ]
 
     # load Llama-3.1-8B, you can use Qwen through change the parameter to "Qwen2.5-7B"
-    Gen = Generator("Llama-3.1-8B")
+    Gen = Generator("Llama-3.1-8B", "cuda:0")
 
     # Basic RAG message generate
     messages  = Gen.message_generate_baseRAG(question, docs)

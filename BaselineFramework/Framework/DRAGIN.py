@@ -1,5 +1,10 @@
 from torch import FloatTensor, Tensor
-from PoisonousMushroom.Generator import Generator, GeneratorOutput
+from typing import Tuple
+import sys
+sys.path.append("/data1/wangyan/PoisonousMushroom")
+from Generator import Generator, GeneratorOutput
+from GeneratorAPI import GeneratorAPI
+# from PoisonousMushroom.Generator import Generator, GeneratorOutput
 import torch
 import spacy
 import re
@@ -106,11 +111,11 @@ class GenerateInfoCalculate:
 
 
 class DRAGIN:
-    def __init__(self, model_name: str):
-        self.generator = Generator(model_name)
+    def __init__(self, model_name: str, device: str, useAPI: bool):
+        self.generator = Generator(model_name, device)
         self.threshold = RETRIVAL_THRESHOLD
 
-    def retriever_check(self, output: GeneratorOutput) -> bool:
+    def retriever_check(self, output: GeneratorOutput) -> Tuple[bool, Tensor]:
         """
         checkout whether retriever should be used
         through the output info (attention, entropy, and word class) without retriever
@@ -136,20 +141,25 @@ class DRAGIN:
         for item in com_scores:
             if item > self.threshold:
                 # need retriever
-                return True
-        return False
+                return True, com_scores
+        return False, com_scores
 
-    def inference(self, question: str, retrival_doc: list[str]) -> str:
+    def inference(self, question: str, retrival_doc: list[str]) -> dict:
         # first iteration -- without using retrival_doc to generate
         model_input = self.generator.message_generate_base(question)
         output = self.generator.generator(model_input, True)
         output: GeneratorOutput
 
-        if self.retriever_check(output) is True:
+        need_retriever, com_scores = self.retriever_check(output)
+
+        if need_retriever is True:
             # second iteration -- using retrival_doc to generate
             model_input = self.generator.message_generate_baseRAG(question, retrival_doc)
             output = self.generator.generator(model_input, False)
-        return output.output_text
+        # 
+        return {"Output Answer": output.output_text,
+                "Need Retriever": need_retriever,
+                "Comprehensive Score": com_scores}
 
 
 # usage example
@@ -165,4 +175,4 @@ if __name__ == "__main__":
     
     # LLM generation
     output = instance.inference(question, docs)
-    print("output: ", output)
+    print(output)

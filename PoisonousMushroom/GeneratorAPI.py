@@ -40,7 +40,7 @@ def GeneratorAPI(messages: list[dict], model_name: str) -> str:
 
 # usage example
 if __name__ == "__main__":
-    from Generator import Generator, GeneratorOutput
+    from Generator import Generator
 
     # prepare the question and docs
     question = "In greek mythology who was the goddess of spring growth?"

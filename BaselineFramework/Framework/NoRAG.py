@@ -1,28 +1,30 @@
-from PoisonousMushroom.Generator import Generator, GeneratorOutput
-from PoisonousMushroom.GeneratorAPI import GeneratorAPI
+import sys
+sys.path.append("/data1/wangyan/PoisonousMushroom")
+from Generator import Generator, GeneratorOutput
+from GeneratorAPI import GeneratorAPI
 
 
 class NoRAG:
-    def __init__(self, model_name: str, useAPI: bool):
+    def __init__(self, model_name: str, device: str|None, useAPI: bool):
         self.useAPI = useAPI
         self.model_name = model_name
         if not useAPI:
-            self.generator = Generator(model_name)
+            self.generator = Generator(model_name, device)
         else:
             self.generator = Generator(None)
 
-    def inference(self, question: str) -> str:
+    def inference(self, question: str) -> dict:
         messages = self.generator.message_generate_base(question)
 
         if not self.useAPI:
             output = self.generator.generator(messages, False)
             output: GeneratorOutput
-            return output.output_text
+            return {"Output Answer": output.output_text}
         
         else:
             output = GeneratorAPI(messages, self.model_name)
             output: str
-            return output
+            return {"Output Answer": output}
 
 
 # usage example
@@ -39,4 +41,4 @@ if __name__ == "__main__":
     
     # LLM generation
     output = instance.inference(question)
-    print("output: ", output)
+    print(output)
