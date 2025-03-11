@@ -17,9 +17,9 @@ client = OpenAI(
     # **商汤大装置 API Info**
     base_url="https://api.sensenova.cn/compatible-mode/v1",
     # wangyan-key:	
-    # api_key = "sk-pijLcCU8uwb2icud9fb3rKI4lheOxWJU",
+    api_key = "sk-pijLcCU8uwb2icud9fb3rKI4lheOxWJU",
     # zhangyx-key:  
-    api_key = "sk-ylZHAjPZufNCGXOoWgar5tdzUnio2Lbk",
+    # api_key = "sk-ylZHAjPZufNCGXOoWgar5tdzUnio2Lbk",
     # **派欧云 API Info**
     # base_url="https://api.ppinfra.com/v3/openai",
     # 请通过 https://ppinfra.com/settings#key-management 获取 API 密钥。

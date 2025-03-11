@@ -29,7 +29,9 @@ def load_all_files(filePathsRead):
     file_contents = {}
     for file_path in filePathsRead:
         with open(file_path, 'r', encoding='utf-8') as file:
+            print(f"load file: {file_path}")
             file_contents[file_path] = json.load(file)
+    print("load_all_files: all files have been loaded.")
     return file_contents
 
 
@@ -90,8 +92,8 @@ def data_finetuning(filePathsRead: str, filePathWrite: str, irrelevant_documents
 if __name__ == "__main__":
 
     # read files list
-    FILE_PATHS_READ = [f'dataset/nq-train-{i:02d}.json' for i in range(14)]
+    FILE_PATHS_READ = [f'dataset/nq-train-{i:02d}.json' for i in range(35)]
     # write files template
-    FILE_PATH_WRITE = 'dataset_add_irrelevant/level_2_20000/level_2_20000_{ID}.json'
+    FILE_PATH_WRITE = 'dataset_add_irrelevant/level_3_50000/level_3_50000_{ID}.json'
     IRRELEVANT_DOCUMENTS_NUM = 7
     data_finetuning(FILE_PATHS_READ, FILE_PATH_WRITE, IRRELEVANT_DOCUMENTS_NUM)
