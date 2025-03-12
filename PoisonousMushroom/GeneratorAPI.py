@@ -5,20 +5,26 @@ from openai import OpenAI
 MAX_NEW_TOKENS = 600
 MODEL_NAME_DICT = {"Llama-3.1-70B": 
                    {"base_url": "", 
-                    "model_id": "llama3.1-70b-instruct", 
+                    "model_id": "", 
                     "api_key": ""},
 
-                    # 阿里云百炼 https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.27ba516ecCpHkQ&accounttraceid=f54baffa43d5411a8c27405d70adde94qoxh#/model-market/detail/qwen2.5-72b-instruct
+                    # (付费版)阿里云百炼 https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.27ba516ecCpHkQ&accounttraceid=f54baffa43d5411a8c27405d70adde94qoxh#/model-market/detail/qwen2.5-72b-instruct
                    "Qwen2.5-72B": 
                    {"base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
                     "model_id": "qwen2.5-72b-instruct", 
                     "api_key": "sk-775b1e7c8a4d4a10b84508b0d6be1ba1"},
 
-                    # sensenova
+                    # (免费版)商汤大装置
                    "Deepseek-v3": 
                    {"base_url": "https://api.sensenova.cn/compatible-mode/v1", 
                     "model_id": "DeepSeek-V3", 
-                    "api_key": "sk-pijLcCU8uwb2icud9fb3rKI4lheOxWJU"}}
+                    "api_key": "sk-pijLcCU8uwb2icud9fb3rKI4lheOxWJU"},
+                    
+                    # (付费版)派欧算力云 https://ppinfra.com
+                   "Deepseek-v3-ppin": 
+                   {"base_url": "https://api.ppinfra.com/v3/openai", 
+                    "model_id": "deepseek/deepseek-v3-turbo", 
+                    "api_key": "sk_2rwMr_cIXz02Ss7vi3yELfOP1J2D1DBPotAh6sDkvq8"}}
 
 
 # generate the output through LLM API
@@ -40,6 +46,7 @@ def GeneratorAPI(messages: list[dict], model_name: str) -> str:
 
 # usage example
 if __name__ == "__main__":
+
     from Generator import Generator
 
     # prepare the question and docs
