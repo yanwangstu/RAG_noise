@@ -51,6 +51,7 @@ class SKR:
                 need_docs = True
                 second_messages = self.generator.message_generate_baseRAG(question, retrival_doc)
             else:
+                need_docs = False
                 second_messages = self.generator.message_generate_base(question)
 
             # second request: 

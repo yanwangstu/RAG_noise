@@ -3,14 +3,14 @@ from torch import FloatTensor, LongTensor, Tensor
 from modelscope import AutoTokenizer, AutoModelForCausalLM
 from transformers.generation.utils import GenerateDecoderOnlyOutput
 import torch
-# import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 
 # constant
 MAX_NEW_TOKENS = 600
 MIN_NEW_TOKENS = 1
 MODEL_PATH_DICT = {"Qwen2.5-7B": "/datanfs2/zyx/model_cache/qwen/Qwen2___5-7B-Instruct", 
-                   "Llama-3.1-8B": "/datanfs2/zyx/model_cache/LLM-Research/Meta-Llama-3___1-8B-Instruct"}
+                   "Llama-3.1-8B": "/datanfs2/zyx/model_cache/LLM-Research/Meta-Llama-3___1-8B-Instruct",
+                   "DeepSeek-R1-Distill-Llama-8B": "/datanfs2/zyx/model_cache/deepseek-ai/DeepSeek-R1-Distill-Llama-8B"}
 
 
 @dataclass
@@ -179,6 +179,7 @@ class Generator:
                 **model_inputs,
                 return_dict_in_generate=True,
                 max_new_tokens=MAX_NEW_TOKENS,
+                pad_token_id=self.tokenizer.eos_token_id,
                 min_new_tokens=MIN_NEW_TOKENS,
                 output_scores=True,
                 use_cache=False
@@ -199,8 +200,8 @@ class Generator:
             outputs_scores = outputs.scores
 
             # get the output attention through re-input the output into the LLM
-            # outputs_attention = self.model(outputs.sequences[:, input_ids_length:], output_attentions=True).attentions
-            outputs_attention = [layer_attn[-1] for layer_attn in outputs.attentions]
+            outputs_attention = self.model(outputs.sequences[:, input_ids_length:], output_attentions=True).attentions
+            # outputs_attention = [layer_attn[-1] for layer_attn in outputs.attentions]
 
             torch.cuda.empty_cache()
 
@@ -222,12 +223,12 @@ if __name__ == "__main__":
             "In Greek mythology, Hestia (/ˈhɛstiə/; Greek: Ἑστία), also called Vesta (/ˈvɛstə/; 'the hearth goddess'), is the daughter of Cronus and Rhea and is the queen of the hearth and home. Homer describes her as the gentle, protective guardian of domestic life, who maintains the sacred fire. Hestia was associated with Zeus, the king of the gods. The myth of her eternal virginity represents her function as the personification of the hearth, which warms in spring and sustains through the seasons; hence, she is also associated with spring as well as the comfort of home. Similar myths appear in the Orient, in the cults of hearth deities like Vesta, Brigid, and Hestia, and in ancient Rome."
             ]
 
-    # load Llama-3.1-8B, you can use Qwen through change the parameter to "Qwen2.5-7B"
-    Gen = Generator("Llama-3.1-8B", "cuda:0")
+    # load "Llama-3.1-8B" or "Qwen2.5-7B"
+    Gen = Generator("Qwen2.5-7B", "cuda:0")
 
     # Basic RAG message generate
     messages  = Gen.message_generate_baseRAG(question, docs)
-    print("input: ", messages)
+    # print("input: ", messages)
 
     # LLM generation
     output = Gen.generator(messages, False)

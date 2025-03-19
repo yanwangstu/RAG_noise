@@ -6,12 +6,13 @@ from Generator import Generator, GeneratorOutput
 from GeneratorAPI import GeneratorAPI
 # from PoisonousMushroom.Generator import Generator, GeneratorOutput
 import torch
+import string
 import spacy
 import re
 
 
 # constant
-RETRIVAL_THRESHOLD = 1.5
+RETRIVAL_THRESHOLD = 0.25
 ATTENTION_SOLVER = "max"
 
 
@@ -85,14 +86,32 @@ class GenerateInfoCalculate:
         """
         word_class = []
 
+        pattern = self.tokens.copy()
+        search_index = 0
+        while search_index < len(pattern):
+            if not re.match(r'^<.*>$', pattern[search_index]) and not any(p in pattern[search_index] for p in string.punctuation):
+                start_index = search_index
+                while search_index + 1 < len(pattern) and "Ġ" not in pattern[search_index+1] and not any(p in pattern[search_index+1] for p in string.punctuation):
+                    search_index += 1
+                end_index = search_index
+                combine = ''.join(pattern[start_index:end_index+1])
+                for i in range(start_index, end_index+1):
+                    pattern[i] = re.sub(r'[ĠĊ]', '', combine)
+            search_index += 1
+
+
         # process each token separately
-        for word in self.tokens:
+        for i in range(len(pattern)):
+            word = pattern[i]
             # if word is a special tag that starts with "<" and ends with ">", it is directly classified as False
             if re.match(r'^<.*>$', word):
                 word_class.append(False)
                 continue
 
-            word = re.sub(r'[ĠĊ]', '', word)
+            if i>0 and word == pattern[i-1]:
+                word_class.append(word_class[-1])
+                continue
+
             doc = nlp(word)
             if len(doc) > 0:
                 # if doc has more than one token, only consider the 1st token
@@ -115,7 +134,7 @@ class DRAGIN:
         self.generator = Generator(model_name, device)
         self.threshold = RETRIVAL_THRESHOLD
 
-    def retriever_check(self, output: GeneratorOutput) -> Tuple[bool, Tensor]:
+    def retriever_check(self, output: GeneratorOutput) -> dict:
         """
         checkout whether retriever should be used
         through the output info (attention, entropy, and word class) without retriever
@@ -138,11 +157,17 @@ class DRAGIN:
         # calculate the comprehensive score for each token
         com_scores = entropies * attention * word_class
 
+        need_retriever = False
         for item in com_scores:
             if item > self.threshold:
                 # need retriever
-                return True, com_scores
-        return False, com_scores
+                need_retriever = True
+        
+        return {"First Answer Entropies": entropies.tolist(),
+                "First Answer Attention": attention.tolist(),
+                "First Answer Class": word_class.tolist(),
+                "First Answer Comprehensive Score": com_scores.tolist(),
+                "Need Retriever": need_retriever}
 
     def inference(self, question: str, retrival_doc: list[str]) -> dict:
         # first iteration -- without using retrival_doc to generate
@@ -150,22 +175,24 @@ class DRAGIN:
         output = self.generator.generator(model_input, True)
         output: GeneratorOutput
 
-        need_retriever, com_scores = self.retriever_check(output)
+        check_info = self.retriever_check(output)
+        first_answer = output
 
-        if need_retriever is True:
-            # second iteration -- using retrival_doc to generate
+        # second iteration -- using retrival_doc to generate
+        if check_info["Need Retriever"] is True:
             model_input = self.generator.message_generate_baseRAG(question, retrival_doc)
             output = self.generator.generator(model_input, False)
-        # 
+
         return {"Output Answer": output.output_text,
-                "Need Retriever": need_retriever,
-                "Comprehensive Score": com_scores}
+                "First Answer": first_answer.output_text,
+                "First Answer Tokens": first_answer.output_tokens,
+                **check_info}
 
 
 # usage example
 if __name__ == "__main__":
     # use Llama-3.1-8B, only support running locally
-    instance = DRAGIN("Llama-3.1-8B")
+    instance = DRAGIN("Llama-3.1-8B", "cuda:0", False)
 
     # prepare the question and docs
     question = "In greek mythology who was the goddess of spring growth?"
