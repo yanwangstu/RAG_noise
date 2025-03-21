@@ -222,6 +222,7 @@ if __name__ == "__main__":
     parse_model_name = model_name.replace(".", "-")
     parse_model_name = parse_model_name.strip("-zyx")
     parse_model_name = parse_model_name.strip("-hjh")
+    parse_model_name = parse_model_name.strip("-wy")
     for variable in variables:
 
         testbed_path = f"testbed/{experiment_name}_different_{variable_name}/{experiment_name}_{variable_name}-{variable}.json"

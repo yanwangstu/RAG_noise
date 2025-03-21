@@ -36,7 +36,7 @@ MAX_NEW_TOKENS = 20
 MODEL_NAME_DICT = {"model_name": "Deepseek-v3",
                    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
                    "model_id": "deepseek-v3",
-                   "api_key": "sk-775b1e7c8a4d4a10b84508b0d6be1ba1"}
+                   "api_key": "sk-1c8027e671284f66a0abea9573b6c122"}
 
 executor = ThreadPoolExecutor()
 
@@ -147,11 +147,13 @@ def Acc_evaluate_API(messages: list[dict]) -> int | str:
         if 0 <= match_score <= 5:
             return match_score
         else:
-            print(f"\n\nResponse Failed: Invalid--{output_text}")
+            print(f"\n\n{messages}")
+            print(f"Response Failed: Invalid--{output_text}\n")
             return f"Response Failed: Invalid--{output_text}"
     # match failed, return the output text directly
     except Exception as e:
-        print(f"\n\nResponse Failed: Parse Failed--{str(e)}")
+        print(f"\n\n{messages}")
+        print(f"Response Failed: Parse Failed--{output_text}, {str(e)}\n")
         return f"Response Failed: Parse Failed--{output_text}"
 
 
@@ -245,8 +247,8 @@ async def evaluation(framework: str,
             answer_match = re.search(r"Answer:\s*(.*)",
                                      llm_answers[QID],
                                      re.DOTALL)
-        if answer_match:
-            llm_answers[QID] = answer_match.group(1).strip()
+            if answer_match:
+                llm_answers[QID] = answer_match.group(1).strip()
 
     # calcuate answer_reject info and write
     answer_reject_rate, answer_reject_dict = answer_reject_calculate(llm_answers)
@@ -269,7 +271,7 @@ async def evaluation(framework: str,
 
     tasks = []
 
-    batch_size = 400
+    batch_size = 800
     questions_list = list(questions.items())
     for i in range(0, len(questions_list), batch_size):
         questions_batch = dict(questions_list[i:i + batch_size])

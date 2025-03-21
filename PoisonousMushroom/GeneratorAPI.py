@@ -19,19 +19,20 @@ MODEL_NAME_DICT = { # 钱多多 https://api2.aigcbest.top/token
                    "Qwen2.5-72B": 
                    {"base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
                     "model_id": "qwen2.5-72b-instruct", 
-                    "api_key": "sk-775b1e7c8a4d4a10b84508b0d6be1ba1"},
+                    "api_key": "sk-1c8027e671284f66a0abea9573b6c122"},
+                    # my key: "sk-775b1e7c8a4d4a10b84508b0d6be1ba1"
 
                     # (付费版)阿里云百炼 https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.27ba516ecCpHkQ&accounttraceid=f54baffa43d5411a8c27405d70adde94qoxh#/model-market
                    "Deepseek-v3": 
                    {"base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
                     "model_id": "deepseek-v3", 
-                    "api_key": "sk-775b1e7c8a4d4a10b84508b0d6be1ba1"},
+                    "api_key": "sk-1c8027e671284f66a0abea9573b6c122"},
 
                     # (付费版)阿里云百炼 https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.27ba516ecCpHkQ&accounttraceid=f54baffa43d5411a8c27405d70adde94qoxh#/model-market
                    "Deepseek-r1": 
                    {"base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
                     "model_id": "deepseek-r1", 
-                    "api_key": "sk-775b1e7c8a4d4a10b84508b0d6be1ba1"},
+                    "api_key": "sk-1c8027e671284f66a0abea9573b6c122"},
 
                     # (免费版) RPM=60 阿里云百炼 https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.27ba516ecCpHkQ&accounttraceid=f54baffa43d5411a8c27405d70adde94qoxh#/model-market
                    "R1-distill-llama-8b-wy": 
