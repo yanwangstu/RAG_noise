@@ -8,8 +8,8 @@
 /DatasetProcess/dataset_add_irrelevant/
 /DatasetProcess/testbed/
 /CRAG-main/
-/BaselineFramework/ExperimentResult/
-/BaselineFramework/testbed/
+/BaselineFrameworkAnalysis/ExperimentResult/
+/BaselineFrameworkAnalysis/testbed/
 /Backup/
 
 # Byte-compiled / optimized / DLL files

@@ -1,0 +1,6338 @@
+[
+    {
+        "QID": 6,
+        "Token Len": 734
+    },
+    {
+        "QID": 13,
+        "Token Len": 787
+    },
+    {
+        "QID": 14,
+        "Token Len": 667
+    },
+    {
+        "QID": 16,
+        "Token Len": 1120
+    },
+    {
+        "QID": 20,
+        "Token Len": 1001
+    },
+    {
+        "QID": 28,
+        "Token Len": 892
+    },
+    {
+        "QID": 40,
+        "Token Len": 659
+    },
+    {
+        "QID": 41,
+        "Token Len": 1194
+    },
+    {
+        "QID": 48,
+        "Token Len": 1047
+    },
+    {
+        "QID": 51,
+        "Token Len": 1115
+    },
+    {
+        "QID": 53,
+        "Token Len": 821
+    },
+    {
+        "QID": 58,
+        "Token Len": 1025
+    },
+    {
+        "QID": 72,
+        "Token Len": 1108
+    },
+    {
+        "QID": 73,
+        "Token Len": 561
+    },
+    {
+        "QID": 74,
+        "Token Len": 871
+    },
+    {
+        "QID": 76,
+        "Token Len": 1358
+    },
+    {
+        "QID": 77,
+        "Token Len": 747
+    },
+    {
+        "QID": 78,
+        "Token Len": 1152
+    },
+    {
+        "QID": 80,
+        "Token Len": 1050
+    },
+    {
+        "QID": 83,
+        "Token Len": 1116
+    },
+    {
+        "QID": 87,
+        "Token Len": 911
+    },
+    {
+        "QID": 97,
+        "Token Len": 848
+    },
+    {
+        "QID": 115,
+        "Token Len": 1125
+    },
+    {
+        "QID": 119,
+        "Token Len": 1798
+    },
+    {
+        "QID": 125,
+        "Token Len": 1341
+    },
+    {
+        "QID": 133,
+        "Token Len": 757
+    },
+    {
+        "QID": 134,
+        "Token Len": 1765
+    },
+    {
+        "QID": 136,
+        "Token Len": 958
+    },
+    {
+        "QID": 140,
+        "Token Len": 812
+    },
+    {
+        "QID": 146,
+        "Token Len": 1016
+    },
+    {
+        "QID": 160,
+        "Token Len": 896
+    },
+    {
+        "QID": 163,
+        "Token Len": 654
+    },
+    {
+        "QID": 164,
+        "Token Len": 624
+    },
+    {
+        "QID": 165,
+        "Token Len": 597
+    },
+    {
+        "QID": 175,
+        "Token Len": 1153
+    },
+    {
+        "QID": 179,
+        "Token Len": 1353
+    },
+    {
+        "QID": 190,
+        "Token Len": 743
+    },
+    {
+        "QID": 192,
+        "Token Len": 877
+    },
+    {
+        "QID": 194,
+        "Token Len": 903
+    },
+    {
+        "QID": 195,
+        "Token Len": 1026
+    },
+    {
+        "QID": 197,
+        "Token Len": 1152
+    },
+    {
+        "QID": 200,
+        "Token Len": 880
+    },
+    {
+        "QID": 206,
+        "Token Len": 729
+    },
+    {
+        "QID": 207,
+        "Token Len": 1446
+    },
+    {
+        "QID": 211,
+        "Token Len": 1441
+    },
+    {
+        "QID": 212,
+        "Token Len": 606
+    },
+    {
+        "QID": 218,
+        "Token Len": 1969
+    },
+    {
+        "QID": 228,
+        "Token Len": 731
+    },
+    {
+        "QID": 230,
+        "Token Len": 701
+    },
+    {
+        "QID": 237,
+        "Token Len": 879
+    },
+    {
+        "QID": 239,
+        "Token Len": 1759
+    },
+    {
+        "QID": 240,
+        "Token Len": 735
+    },
+    {
+        "QID": 250,
+        "Token Len": 1393
+    },
+    {
+        "QID": 251,
+        "Token Len": 831
+    },
+    {
+        "QID": 257,
+        "Token Len": 832
+    },
+    {
+        "QID": 259,
+        "Token Len": 1502
+    },
+    {
+        "QID": 261,
+        "Token Len": 1067
+    },
+    {
+        "QID": 269,
+        "Token Len": 911
+    },
+    {
+        "QID": 275,
+        "Token Len": 977
+    },
+    {
+        "QID": 278,
+        "Token Len": 820
+    },
+    {
+        "QID": 281,
+        "Token Len": 1007
+    },
+    {
+        "QID": 282,
+        "Token Len": 1216
+    },
+    {
+        "QID": 283,
+        "Token Len": 1003
+    },
+    {
+        "QID": 285,
+        "Token Len": 754
+    },
+    {
+        "QID": 288,
+        "Token Len": 920
+    },
+    {
+        "QID": 292,
+        "Token Len": 1365
+    },
+    {
+        "QID": 293,
+        "Token Len": 1255
+    },
+    {
+        "QID": 298,
+        "Token Len": 849
+    },
+    {
+        "QID": 318,
+        "Token Len": 834
+    },
+    {
+        "QID": 319,
+        "Token Len": 509
+    },
+    {
+        "QID": 321,
+        "Token Len": 1393
+    },
+    {
+        "QID": 325,
+        "Token Len": 2306
+    },
+    {
+        "QID": 329,
+        "Token Len": 1247
+    },
+    {
+        "QID": 338,
+        "Token Len": 1245
+    },
+    {
+        "QID": 344,
+        "Token Len": 1681
+    },
+    {
+        "QID": 345,
+        "Token Len": 1074
+    },
+    {
+        "QID": 360,
+        "Token Len": 714
+    },
+    {
+        "QID": 366,
+        "Token Len": 874
+    },
+    {
+        "QID": 367,
+        "Token Len": 748
+    },
+    {
+        "QID": 370,
+        "Token Len": 564
+    },
+    {
+        "QID": 380,
+        "Token Len": 847
+    },
+    {
+        "QID": 391,
+        "Token Len": 694
+    },
+    {
+        "QID": 398,
+        "Token Len": 858
+    },
+    {
+        "QID": 402,
+        "Token Len": 1129
+    },
+    {
+        "QID": 408,
+        "Token Len": 564
+    },
+    {
+        "QID": 409,
+        "Token Len": 1325
+    },
+    {
+        "QID": 415,
+        "Token Len": 1823
+    },
+    {
+        "QID": 417,
+        "Token Len": 1571
+    },
+    {
+        "QID": 421,
+        "Token Len": 1215
+    },
+    {
+        "QID": 423,
+        "Token Len": 894
+    },
+    {
+        "QID": 425,
+        "Token Len": 902
+    },
+    {
+        "QID": 429,
+        "Token Len": 1094
+    },
+    {
+        "QID": 430,
+        "Token Len": 1539
+    },
+    {
+        "QID": 434,
+        "Token Len": 787
+    },
+    {
+        "QID": 441,
+        "Token Len": 1131
+    },
+    {
+        "QID": 453,
+        "Token Len": 842
+    },
+    {
+        "QID": 460,
+        "Token Len": 1026
+    },
+    {
+        "QID": 471,
+        "Token Len": 519
+    },
+    {
+        "QID": 478,
+        "Token Len": 2340
+    },
+    {
+        "QID": 481,
+        "Token Len": 810
+    },
+    {
+        "QID": 482,
+        "Token Len": 1318
+    },
+    {
+        "QID": 487,
+        "Token Len": 1737
+    },
+    {
+        "QID": 493,
+        "Token Len": 876
+    },
+    {
+        "QID": 494,
+        "Token Len": 962
+    },
+    {
+        "QID": 495,
+        "Token Len": 603
+    },
+    {
+        "QID": 496,
+        "Token Len": 987
+    },
+    {
+        "QID": 503,
+        "Token Len": 1295
+    },
+    {
+        "QID": 511,
+        "Token Len": 817
+    },
+    {
+        "QID": 512,
+        "Token Len": 1227
+    },
+    {
+        "QID": 525,
+        "Token Len": 801
+    },
+    {
+        "QID": 531,
+        "Token Len": 582
+    },
+    {
+        "QID": 533,
+        "Token Len": 831
+    },
+    {
+        "QID": 540,
+        "Token Len": 1251
+    },
+    {
+        "QID": 543,
+        "Token Len": 662
+    },
+    {
+        "QID": 546,
+        "Token Len": 756
+    },
+    {
+        "QID": 551,
+        "Token Len": 1011
+    },
+    {
+        "QID": 552,
+        "Token Len": 1068
+    },
+    {
+        "QID": 569,
+        "Token Len": 946
+    },
+    {
+        "QID": 575,
+        "Token Len": 785
+    },
+    {
+        "QID": 578,
+        "Token Len": 658
+    },
+    {
+        "QID": 583,
+        "Token Len": 1006
+    },
+    {
+        "QID": 586,
+        "Token Len": 815
+    },
+    {
+        "QID": 588,
+        "Token Len": 1596
+    },
+    {
+        "QID": 589,
+        "Token Len": 835
+    },
+    {
+        "QID": 594,
+        "Token Len": 650
+    },
+    {
+        "QID": 599,
+        "Token Len": 1445
+    },
+    {
+        "QID": 604,
+        "Token Len": 557
+    },
+    {
+        "QID": 607,
+        "Token Len": 1139
+    },
+    {
+        "QID": 608,
+        "Token Len": 646
+    },
+    {
+        "QID": 609,
+        "Token Len": 1028
+    },
+    {
+        "QID": 611,
+        "Token Len": 858
+    },
+    {
+        "QID": 613,
+        "Token Len": 1033
+    },
+    {
+        "QID": 619,
+        "Token Len": 1052
+    },
+    {
+        "QID": 620,
+        "Token Len": 1058
+    },
+    {
+        "QID": 636,
+        "Token Len": 866
+    },
+    {
+        "QID": 640,
+        "Token Len": 988
+    },
+    {
+        "QID": 644,
+        "Token Len": 1166
+    },
+    {
+        "QID": 650,
+        "Token Len": 1207
+    },
+    {
+        "QID": 655,
+        "Token Len": 787
+    },
+    {
+        "QID": 664,
+        "Token Len": 826
+    },
+    {
+        "QID": 665,
+        "Token Len": 931
+    },
+    {
+        "QID": 666,
+        "Token Len": 1018
+    },
+    {
+        "QID": 670,
+        "Token Len": 1430
+    },
+    {
+        "QID": 674,
+        "Token Len": 992
+    },
+    {
+        "QID": 677,
+        "Token Len": 1595
+    },
+    {
+        "QID": 678,
+        "Token Len": 1056
+    },
+    {
+        "QID": 679,
+        "Token Len": 1226
+    },
+    {
+        "QID": 693,
+        "Token Len": 1479
+    },
+    {
+        "QID": 700,
+        "Token Len": 958
+    },
+    {
+        "QID": 707,
+        "Token Len": 961
+    },
+    {
+        "QID": 715,
+        "Token Len": 1032
+    },
+    {
+        "QID": 716,
+        "Token Len": 1247
+    },
+    {
+        "QID": 724,
+        "Token Len": 1045
+    },
+    {
+        "QID": 727,
+        "Token Len": 508
+    },
+    {
+        "QID": 729,
+        "Token Len": 894
+    },
+    {
+        "QID": 730,
+        "Token Len": 761
+    },
+    {
+        "QID": 731,
+        "Token Len": 1446
+    },
+    {
+        "QID": 734,
+        "Token Len": 1268
+    },
+    {
+        "QID": 735,
+        "Token Len": 1142
+    },
+    {
+        "QID": 738,
+        "Token Len": 1759
+    },
+    {
+        "QID": 740,
+        "Token Len": 1691
+    },
+    {
+        "QID": 743,
+        "Token Len": 1307
+    },
+    {
+        "QID": 745,
+        "Token Len": 857
+    },
+    {
+        "QID": 748,
+        "Token Len": 746
+    },
+    {
+        "QID": 751,
+        "Token Len": 883
+    },
+    {
+        "QID": 752,
+        "Token Len": 817
+    },
+    {
+        "QID": 753,
+        "Token Len": 935
+    },
+    {
+        "QID": 756,
+        "Token Len": 844
+    },
+    {
+        "QID": 759,
+        "Token Len": 568
+    },
+    {
+        "QID": 760,
+        "Token Len": 1703
+    },
+    {
+        "QID": 766,
+        "Token Len": 664
+    },
+    {
+        "QID": 767,
+        "Token Len": 987
+    },
+    {
+        "QID": 768,
+        "Token Len": 746
+    },
+    {
+        "QID": 772,
+        "Token Len": 1071
+    },
+    {
+        "QID": 784,
+        "Token Len": 1667
+    },
+    {
+        "QID": 787,
+        "Token Len": 1349
+    },
+    {
+        "QID": 788,
+        "Token Len": 1223
+    },
+    {
+        "QID": 796,
+        "Token Len": 1157
+    },
+    {
+        "QID": 804,
+        "Token Len": 736
+    },
+    {
+        "QID": 808,
+        "Token Len": 1251
+    },
+    {
+        "QID": 811,
+        "Token Len": 993
+    },
+    {
+        "QID": 814,
+        "Token Len": 1119
+    },
+    {
+        "QID": 815,
+        "Token Len": 929
+    },
+    {
+        "QID": 818,
+        "Token Len": 1208
+    },
+    {
+        "QID": 821,
+        "Token Len": 792
+    },
+    {
+        "QID": 833,
+        "Token Len": 1150
+    },
+    {
+        "QID": 834,
+        "Token Len": 1189
+    },
+    {
+        "QID": 836,
+        "Token Len": 1057
+    },
+    {
+        "QID": 839,
+        "Token Len": 847
+    },
+    {
+        "QID": 842,
+        "Token Len": 1031
+    },
+    {
+        "QID": 845,
+        "Token Len": 706
+    },
+    {
+        "QID": 848,
+        "Token Len": 762
+    },
+    {
+        "QID": 852,
+        "Token Len": 1317
+    },
+    {
+        "QID": 856,
+        "Token Len": 1005
+    },
+    {
+        "QID": 857,
+        "Token Len": 2538
+    },
+    {
+        "QID": 860,
+        "Token Len": 1235
+    },
+    {
+        "QID": 861,
+        "Token Len": 758
+    },
+    {
+        "QID": 862,
+        "Token Len": 820
+    },
+    {
+        "QID": 869,
+        "Token Len": 3080
+    },
+    {
+        "QID": 886,
+        "Token Len": 817
+    },
+    {
+        "QID": 891,
+        "Token Len": 1071
+    },
+    {
+        "QID": 892,
+        "Token Len": 789
+    },
+    {
+        "QID": 894,
+        "Token Len": 994
+    },
+    {
+        "QID": 897,
+        "Token Len": 711
+    },
+    {
+        "QID": 903,
+        "Token Len": 941
+    },
+    {
+        "QID": 913,
+        "Token Len": 1155
+    },
+    {
+        "QID": 914,
+        "Token Len": 1111
+    },
+    {
+        "QID": 919,
+        "Token Len": 861
+    },
+    {
+        "QID": 920,
+        "Token Len": 935
+    },
+    {
+        "QID": 923,
+        "Token Len": 1034
+    },
+    {
+        "QID": 924,
+        "Token Len": 1432
+    },
+    {
+        "QID": 925,
+        "Token Len": 1125
+    },
+    {
+        "QID": 926,
+        "Token Len": 1181
+    },
+    {
+        "QID": 927,
+        "Token Len": 2218
+    },
+    {
+        "QID": 928,
+        "Token Len": 1093
+    },
+    {
+        "QID": 931,
+        "Token Len": 816
+    },
+    {
+        "QID": 945,
+        "Token Len": 827
+    },
+    {
+        "QID": 951,
+        "Token Len": 830
+    },
+    {
+        "QID": 967,
+        "Token Len": 987
+    },
+    {
+        "QID": 970,
+        "Token Len": 761
+    },
+    {
+        "QID": 974,
+        "Token Len": 853
+    },
+    {
+        "QID": 975,
+        "Token Len": 711
+    },
+    {
+        "QID": 978,
+        "Token Len": 1240
+    },
+    {
+        "QID": 979,
+        "Token Len": 1037
+    },
+    {
+        "QID": 981,
+        "Token Len": 1013
+    },
+    {
+        "QID": 990,
+        "Token Len": 1136
+    },
+    {
+        "QID": 992,
+        "Token Len": 745
+    },
+    {
+        "QID": 995,
+        "Token Len": 1404
+    },
+    {
+        "QID": 999,
+        "Token Len": 836
+    },
+    {
+        "QID": 1001,
+        "Token Len": 1369
+    },
+    {
+        "QID": 1006,
+        "Token Len": 712
+    },
+    {
+        "QID": 1007,
+        "Token Len": 795
+    },
+    {
+        "QID": 1012,
+        "Token Len": 965
+    },
+    {
+        "QID": 1013,
+        "Token Len": 1105
+    },
+    {
+        "QID": 1014,
+        "Token Len": 1458
+    },
+    {
+        "QID": 1016,
+        "Token Len": 1707
+    },
+    {
+        "QID": 1018,
+        "Token Len": 1273
+    },
+    {
+        "QID": 1021,
+        "Token Len": 770
+    },
+    {
+        "QID": 1022,
+        "Token Len": 1016
+    },
+    {
+        "QID": 1037,
+        "Token Len": 1094
+    },
+    {
+        "QID": 1038,
+        "Token Len": 1007
+    },
+    {
+        "QID": 1040,
+        "Token Len": 444
+    },
+    {
+        "QID": 1045,
+        "Token Len": 895
+    },
+    {
+        "QID": 1046,
+        "Token Len": 888
+    },
+    {
+        "QID": 1050,
+        "Token Len": 1193
+    },
+    {
+        "QID": 1051,
+        "Token Len": 1418
+    },
+    {
+        "QID": 1056,
+        "Token Len": 1061
+    },
+    {
+        "QID": 1059,
+        "Token Len": 876
+    },
+    {
+        "QID": 1061,
+        "Token Len": 1159
+    },
+    {
+        "QID": 1063,
+        "Token Len": 1520
+    },
+    {
+        "QID": 1067,
+        "Token Len": 852
+    },
+    {
+        "QID": 1069,
+        "Token Len": 871
+    },
+    {
+        "QID": 1076,
+        "Token Len": 1283
+    },
+    {
+        "QID": 1080,
+        "Token Len": 825
+    },
+    {
+        "QID": 1084,
+        "Token Len": 880
+    },
+    {
+        "QID": 1088,
+        "Token Len": 759
+    },
+    {
+        "QID": 1093,
+        "Token Len": 780
+    },
+    {
+        "QID": 1096,
+        "Token Len": 730
+    },
+    {
+        "QID": 1097,
+        "Token Len": 1079
+    },
+    {
+        "QID": 1101,
+        "Token Len": 775
+    },
+    {
+        "QID": 1107,
+        "Token Len": 861
+    },
+    {
+        "QID": 1118,
+        "Token Len": 954
+    },
+    {
+        "QID": 1120,
+        "Token Len": 1231
+    },
+    {
+        "QID": 1126,
+        "Token Len": 1295
+    },
+    {
+        "QID": 1130,
+        "Token Len": 692
+    },
+    {
+        "QID": 1131,
+        "Token Len": 748
+    },
+    {
+        "QID": 1137,
+        "Token Len": 1799
+    },
+    {
+        "QID": 1139,
+        "Token Len": 1206
+    },
+    {
+        "QID": 1143,
+        "Token Len": 1011
+    },
+    {
+        "QID": 1146,
+        "Token Len": 927
+    },
+    {
+        "QID": 1149,
+        "Token Len": 682
+    },
+    {
+        "QID": 1152,
+        "Token Len": 1288
+    },
+    {
+        "QID": 1160,
+        "Token Len": 886
+    },
+    {
+        "QID": 1162,
+        "Token Len": 1130
+    },
+    {
+        "QID": 1163,
+        "Token Len": 927
+    },
+    {
+        "QID": 1166,
+        "Token Len": 790
+    },
+    {
+        "QID": 1173,
+        "Token Len": 762
+    },
+    {
+        "QID": 1178,
+        "Token Len": 1002
+    },
+    {
+        "QID": 1180,
+        "Token Len": 1245
+    },
+    {
+        "QID": 1183,
+        "Token Len": 1227
+    },
+    {
+        "QID": 1192,
+        "Token Len": 1020
+    },
+    {
+        "QID": 1200,
+        "Token Len": 1300
+    },
+    {
+        "QID": 1201,
+        "Token Len": 997
+    },
+    {
+        "QID": 1207,
+        "Token Len": 1500
+    },
+    {
+        "QID": 1211,
+        "Token Len": 1123
+    },
+    {
+        "QID": 1216,
+        "Token Len": 963
+    },
+    {
+        "QID": 1218,
+        "Token Len": 1008
+    },
+    {
+        "QID": 1219,
+        "Token Len": 1045
+    },
+    {
+        "QID": 1224,
+        "Token Len": 1018
+    },
+    {
+        "QID": 1225,
+        "Token Len": 951
+    },
+    {
+        "QID": 1230,
+        "Token Len": 896
+    },
+    {
+        "QID": 1231,
+        "Token Len": 1142
+    },
+    {
+        "QID": 1242,
+        "Token Len": 1007
+    },
+    {
+        "QID": 1243,
+        "Token Len": 601
+    },
+    {
+        "QID": 1248,
+        "Token Len": 1263
+    },
+    {
+        "QID": 1249,
+        "Token Len": 537
+    },
+    {
+        "QID": 1253,
+        "Token Len": 1213
+    },
+    {
+        "QID": 1263,
+        "Token Len": 798
+    },
+    {
+        "QID": 1266,
+        "Token Len": 1312
+    },
+    {
+        "QID": 1269,
+        "Token Len": 1135
+    },
+    {
+        "QID": 1272,
+        "Token Len": 1133
+    },
+    {
+        "QID": 1273,
+        "Token Len": 1120
+    },
+    {
+        "QID": 1280,
+        "Token Len": 868
+    },
+    {
+        "QID": 1281,
+        "Token Len": 1300
+    },
+    {
+        "QID": 1283,
+        "Token Len": 598
+    },
+    {
+        "QID": 1292,
+        "Token Len": 959
+    },
+    {
+        "QID": 1293,
+        "Token Len": 640
+    },
+    {
+        "QID": 1298,
+        "Token Len": 813
+    },
+    {
+        "QID": 1304,
+        "Token Len": 821
+    },
+    {
+        "QID": 1305,
+        "Token Len": 1467
+    },
+    {
+        "QID": 1306,
+        "Token Len": 945
+    },
+    {
+        "QID": 1318,
+        "Token Len": 860
+    },
+    {
+        "QID": 1319,
+        "Token Len": 2699
+    },
+    {
+        "QID": 1325,
+        "Token Len": 736
+    },
+    {
+        "QID": 1332,
+        "Token Len": 1188
+    },
+    {
+        "QID": 1334,
+        "Token Len": 611
+    },
+    {
+        "QID": 1341,
+        "Token Len": 998
+    },
+    {
+        "QID": 1344,
+        "Token Len": 936
+    },
+    {
+        "QID": 1352,
+        "Token Len": 1801
+    },
+    {
+        "QID": 1353,
+        "Token Len": 1281
+    },
+    {
+        "QID": 1369,
+        "Token Len": 1593
+    },
+    {
+        "QID": 1370,
+        "Token Len": 1086
+    },
+    {
+        "QID": 1373,
+        "Token Len": 832
+    },
+    {
+        "QID": 1374,
+        "Token Len": 1048
+    },
+    {
+        "QID": 1375,
+        "Token Len": 777
+    },
+    {
+        "QID": 1379,
+        "Token Len": 1130
+    },
+    {
+        "QID": 1381,
+        "Token Len": 623
+    },
+    {
+        "QID": 1394,
+        "Token Len": 907
+    },
+    {
+        "QID": 1400,
+        "Token Len": 1594
+    },
+    {
+        "QID": 1403,
+        "Token Len": 889
+    },
+    {
+        "QID": 1404,
+        "Token Len": 638
+    },
+    {
+        "QID": 1405,
+        "Token Len": 1330
+    },
+    {
+        "QID": 1412,
+        "Token Len": 1210
+    },
+    {
+        "QID": 1414,
+        "Token Len": 2128
+    },
+    {
+        "QID": 1416,
+        "Token Len": 898
+    },
+    {
+        "QID": 1421,
+        "Token Len": 1207
+    },
+    {
+        "QID": 1422,
+        "Token Len": 959
+    },
+    {
+        "QID": 1426,
+        "Token Len": 927
+    },
+    {
+        "QID": 1430,
+        "Token Len": 741
+    },
+    {
+        "QID": 1437,
+        "Token Len": 908
+    },
+    {
+        "QID": 1446,
+        "Token Len": 1876
+    },
+    {
+        "QID": 1450,
+        "Token Len": 952
+    },
+    {
+        "QID": 1456,
+        "Token Len": 1169
+    },
+    {
+        "QID": 1458,
+        "Token Len": 1326
+    },
+    {
+        "QID": 1469,
+        "Token Len": 690
+    },
+    {
+        "QID": 1472,
+        "Token Len": 781
+    },
+    {
+        "QID": 1474,
+        "Token Len": 851
+    },
+    {
+        "QID": 1476,
+        "Token Len": 565
+    },
+    {
+        "QID": 1479,
+        "Token Len": 1157
+    },
+    {
+        "QID": 1480,
+        "Token Len": 1619
+    },
+    {
+        "QID": 1484,
+        "Token Len": 997
+    },
+    {
+        "QID": 1488,
+        "Token Len": 957
+    },
+    {
+        "QID": 1494,
+        "Token Len": 1231
+    },
+    {
+        "QID": 1497,
+        "Token Len": 712
+    },
+    {
+        "QID": 1505,
+        "Token Len": 2018
+    },
+    {
+        "QID": 1506,
+        "Token Len": 1120
+    },
+    {
+        "QID": 1509,
+        "Token Len": 1563
+    },
+    {
+        "QID": 1511,
+        "Token Len": 1775
+    },
+    {
+        "QID": 1513,
+        "Token Len": 858
+    },
+    {
+        "QID": 1519,
+        "Token Len": 1010
+    },
+    {
+        "QID": 1520,
+        "Token Len": 1223
+    },
+    {
+        "QID": 1524,
+        "Token Len": 950
+    },
+    {
+        "QID": 1525,
+        "Token Len": 1281
+    },
+    {
+        "QID": 1528,
+        "Token Len": 832
+    },
+    {
+        "QID": 1536,
+        "Token Len": 1902
+    },
+    {
+        "QID": 1540,
+        "Token Len": 964
+    },
+    {
+        "QID": 1544,
+        "Token Len": 796
+    },
+    {
+        "QID": 1547,
+        "Token Len": 1167
+    },
+    {
+        "QID": 1548,
+        "Token Len": 1118
+    },
+    {
+        "QID": 1549,
+        "Token Len": 1119
+    },
+    {
+        "QID": 1554,
+        "Token Len": 1244
+    },
+    {
+        "QID": 1560,
+        "Token Len": 1235
+    },
+    {
+        "QID": 1561,
+        "Token Len": 1248
+    },
+    {
+        "QID": 1567,
+        "Token Len": 942
+    },
+    {
+        "QID": 1568,
+        "Token Len": 875
+    },
+    {
+        "QID": 1577,
+        "Token Len": 1070
+    },
+    {
+        "QID": 1578,
+        "Token Len": 732
+    },
+    {
+        "QID": 1581,
+        "Token Len": 1042
+    },
+    {
+        "QID": 1592,
+        "Token Len": 1233
+    },
+    {
+        "QID": 1603,
+        "Token Len": 1135
+    },
+    {
+        "QID": 1610,
+        "Token Len": 637
+    },
+    {
+        "QID": 1624,
+        "Token Len": 1415
+    },
+    {
+        "QID": 1627,
+        "Token Len": 1543
+    },
+    {
+        "QID": 1633,
+        "Token Len": 802
+    },
+    {
+        "QID": 1636,
+        "Token Len": 1471
+    },
+    {
+        "QID": 1637,
+        "Token Len": 1159
+    },
+    {
+        "QID": 1640,
+        "Token Len": 1114
+    },
+    {
+        "QID": 1641,
+        "Token Len": 846
+    },
+    {
+        "QID": 1642,
+        "Token Len": 1033
+    },
+    {
+        "QID": 1643,
+        "Token Len": 1595
+    },
+    {
+        "QID": 1650,
+        "Token Len": 1046
+    },
+    {
+        "QID": 1651,
+        "Token Len": 852
+    },
+    {
+        "QID": 1652,
+        "Token Len": 1541
+    },
+    {
+        "QID": 1653,
+        "Token Len": 880
+    },
+    {
+        "QID": 1655,
+        "Token Len": 946
+    },
+    {
+        "QID": 1662,
+        "Token Len": 1083
+    },
+    {
+        "QID": 1670,
+        "Token Len": 561
+    },
+    {
+        "QID": 1676,
+        "Token Len": 913
+    },
+    {
+        "QID": 1681,
+        "Token Len": 961
+    },
+    {
+        "QID": 1691,
+        "Token Len": 1726
+    },
+    {
+        "QID": 1696,
+        "Token Len": 844
+    },
+    {
+        "QID": 1698,
+        "Token Len": 658
+    },
+    {
+        "QID": 1707,
+        "Token Len": 1369
+    },
+    {
+        "QID": 1713,
+        "Token Len": 1816
+    },
+    {
+        "QID": 1716,
+        "Token Len": 726
+    },
+    {
+        "QID": 1718,
+        "Token Len": 1326
+    },
+    {
+        "QID": 1721,
+        "Token Len": 869
+    },
+    {
+        "QID": 1726,
+        "Token Len": 1318
+    },
+    {
+        "QID": 1729,
+        "Token Len": 1219
+    },
+    {
+        "QID": 1731,
+        "Token Len": 1336
+    },
+    {
+        "QID": 1737,
+        "Token Len": 2349
+    },
+    {
+        "QID": 1742,
+        "Token Len": 954
+    },
+    {
+        "QID": 1745,
+        "Token Len": 872
+    },
+    {
+        "QID": 1748,
+        "Token Len": 899
+    },
+    {
+        "QID": 1750,
+        "Token Len": 943
+    },
+    {
+        "QID": 1759,
+        "Token Len": 1007
+    },
+    {
+        "QID": 1761,
+        "Token Len": 614
+    },
+    {
+        "QID": 1765,
+        "Token Len": 1174
+    },
+    {
+        "QID": 1767,
+        "Token Len": 483
+    },
+    {
+        "QID": 1770,
+        "Token Len": 677
+    },
+    {
+        "QID": 1782,
+        "Token Len": 855
+    },
+    {
+        "QID": 1786,
+        "Token Len": 1586
+    },
+    {
+        "QID": 1790,
+        "Token Len": 1448
+    },
+    {
+        "QID": 1798,
+        "Token Len": 1032
+    },
+    {
+        "QID": 1802,
+        "Token Len": 831
+    },
+    {
+        "QID": 1805,
+        "Token Len": 1139
+    },
+    {
+        "QID": 1809,
+        "Token Len": 754
+    },
+    {
+        "QID": 1813,
+        "Token Len": 775
+    },
+    {
+        "QID": 1820,
+        "Token Len": 1518
+    },
+    {
+        "QID": 1832,
+        "Token Len": 1214
+    },
+    {
+        "QID": 1847,
+        "Token Len": 1227
+    },
+    {
+        "QID": 1854,
+        "Token Len": 989
+    },
+    {
+        "QID": 1860,
+        "Token Len": 1398
+    },
+    {
+        "QID": 1862,
+        "Token Len": 1852
+    },
+    {
+        "QID": 1864,
+        "Token Len": 1112
+    },
+    {
+        "QID": 1873,
+        "Token Len": 738
+    },
+    {
+        "QID": 1874,
+        "Token Len": 1214
+    },
+    {
+        "QID": 1876,
+        "Token Len": 1007
+    },
+    {
+        "QID": 1894,
+        "Token Len": 806
+    },
+    {
+        "QID": 1896,
+        "Token Len": 806
+    },
+    {
+        "QID": 1901,
+        "Token Len": 1109
+    },
+    {
+        "QID": 1906,
+        "Token Len": 727
+    },
+    {
+        "QID": 1907,
+        "Token Len": 1623
+    },
+    {
+        "QID": 1914,
+        "Token Len": 1165
+    },
+    {
+        "QID": 1916,
+        "Token Len": 893
+    },
+    {
+        "QID": 1925,
+        "Token Len": 898
+    },
+    {
+        "QID": 1926,
+        "Token Len": 838
+    },
+    {
+        "QID": 1931,
+        "Token Len": 835
+    },
+    {
+        "QID": 1934,
+        "Token Len": 1022
+    },
+    {
+        "QID": 1935,
+        "Token Len": 932
+    },
+    {
+        "QID": 1941,
+        "Token Len": 1121
+    },
+    {
+        "QID": 1945,
+        "Token Len": 821
+    },
+    {
+        "QID": 1957,
+        "Token Len": 753
+    },
+    {
+        "QID": 1958,
+        "Token Len": 1161
+    },
+    {
+        "QID": 1959,
+        "Token Len": 921
+    },
+    {
+        "QID": 1963,
+        "Token Len": 920
+    },
+    {
+        "QID": 1966,
+        "Token Len": 715
+    },
+    {
+        "QID": 1969,
+        "Token Len": 881
+    },
+    {
+        "QID": 1974,
+        "Token Len": 1247
+    },
+    {
+        "QID": 1976,
+        "Token Len": 540
+    },
+    {
+        "QID": 1982,
+        "Token Len": 853
+    },
+    {
+        "QID": 1985,
+        "Token Len": 712
+    },
+    {
+        "QID": 1987,
+        "Token Len": 647
+    },
+    {
+        "QID": 1992,
+        "Token Len": 1447
+    },
+    {
+        "QID": 1996,
+        "Token Len": 1190
+    },
+    {
+        "QID": 1999,
+        "Token Len": 694
+    },
+    {
+        "QID": 2001,
+        "Token Len": 1317
+    },
+    {
+        "QID": 2002,
+        "Token Len": 789
+    },
+    {
+        "QID": 2004,
+        "Token Len": 842
+    },
+    {
+        "QID": 2020,
+        "Token Len": 1365
+    },
+    {
+        "QID": 2025,
+        "Token Len": 992
+    },
+    {
+        "QID": 2026,
+        "Token Len": 731
+    },
+    {
+        "QID": 2042,
+        "Token Len": 659
+    },
+    {
+        "QID": 2049,
+        "Token Len": 967
+    },
+    {
+        "QID": 2051,
+        "Token Len": 1101
+    },
+    {
+        "QID": 2053,
+        "Token Len": 816
+    },
+    {
+        "QID": 2058,
+        "Token Len": 786
+    },
+    {
+        "QID": 2074,
+        "Token Len": 1347
+    },
+    {
+        "QID": 2076,
+        "Token Len": 1424
+    },
+    {
+        "QID": 2077,
+        "Token Len": 892
+    },
+    {
+        "QID": 2079,
+        "Token Len": 835
+    },
+    {
+        "QID": 2084,
+        "Token Len": 805
+    },
+    {
+        "QID": 2086,
+        "Token Len": 903
+    },
+    {
+        "QID": 2089,
+        "Token Len": 830
+    },
+    {
+        "QID": 2098,
+        "Token Len": 760
+    },
+    {
+        "QID": 2099,
+        "Token Len": 959
+    },
+    {
+        "QID": 2105,
+        "Token Len": 867
+    },
+    {
+        "QID": 2110,
+        "Token Len": 1221
+    },
+    {
+        "QID": 2112,
+        "Token Len": 940
+    },
+    {
+        "QID": 2113,
+        "Token Len": 740
+    },
+    {
+        "QID": 2115,
+        "Token Len": 781
+    },
+    {
+        "QID": 2116,
+        "Token Len": 1374
+    },
+    {
+        "QID": 2121,
+        "Token Len": 755
+    },
+    {
+        "QID": 2128,
+        "Token Len": 1466
+    },
+    {
+        "QID": 2131,
+        "Token Len": 1124
+    },
+    {
+        "QID": 2132,
+        "Token Len": 1054
+    },
+    {
+        "QID": 2138,
+        "Token Len": 1135
+    },
+    {
+        "QID": 2140,
+        "Token Len": 654
+    },
+    {
+        "QID": 2145,
+        "Token Len": 764
+    },
+    {
+        "QID": 2149,
+        "Token Len": 981
+    },
+    {
+        "QID": 2154,
+        "Token Len": 973
+    },
+    {
+        "QID": 2156,
+        "Token Len": 1124
+    },
+    {
+        "QID": 2160,
+        "Token Len": 640
+    },
+    {
+        "QID": 2163,
+        "Token Len": 1404
+    },
+    {
+        "QID": 2168,
+        "Token Len": 662
+    },
+    {
+        "QID": 2173,
+        "Token Len": 1162
+    },
+    {
+        "QID": 2180,
+        "Token Len": 744
+    },
+    {
+        "QID": 2189,
+        "Token Len": 962
+    },
+    {
+        "QID": 2197,
+        "Token Len": 819
+    },
+    {
+        "QID": 2201,
+        "Token Len": 1063
+    },
+    {
+        "QID": 2203,
+        "Token Len": 807
+    },
+    {
+        "QID": 2206,
+        "Token Len": 1956
+    },
+    {
+        "QID": 2211,
+        "Token Len": 1112
+    },
+    {
+        "QID": 2213,
+        "Token Len": 1075
+    },
+    {
+        "QID": 2230,
+        "Token Len": 2003
+    },
+    {
+        "QID": 2239,
+        "Token Len": 827
+    },
+    {
+        "QID": 2243,
+        "Token Len": 1022
+    },
+    {
+        "QID": 2248,
+        "Token Len": 1119
+    },
+    {
+        "QID": 2252,
+        "Token Len": 587
+    },
+    {
+        "QID": 2259,
+        "Token Len": 666
+    },
+    {
+        "QID": 2265,
+        "Token Len": 1182
+    },
+    {
+        "QID": 2268,
+        "Token Len": 995
+    },
+    {
+        "QID": 2269,
+        "Token Len": 1169
+    },
+    {
+        "QID": 2275,
+        "Token Len": 509
+    },
+    {
+        "QID": 2281,
+        "Token Len": 1371
+    },
+    {
+        "QID": 2285,
+        "Token Len": 908
+    },
+    {
+        "QID": 2287,
+        "Token Len": 952
+    },
+    {
+        "QID": 2303,
+        "Token Len": 720
+    },
+    {
+        "QID": 2310,
+        "Token Len": 1013
+    },
+    {
+        "QID": 2314,
+        "Token Len": 1058
+    },
+    {
+        "QID": 2315,
+        "Token Len": 1144
+    },
+    {
+        "QID": 2316,
+        "Token Len": 535
+    },
+    {
+        "QID": 2318,
+        "Token Len": 1024
+    },
+    {
+        "QID": 2319,
+        "Token Len": 1061
+    },
+    {
+        "QID": 2325,
+        "Token Len": 881
+    },
+    {
+        "QID": 2329,
+        "Token Len": 962
+    },
+    {
+        "QID": 2337,
+        "Token Len": 1035
+    },
+    {
+        "QID": 2339,
+        "Token Len": 1387
+    },
+    {
+        "QID": 2349,
+        "Token Len": 929
+    },
+    {
+        "QID": 2351,
+        "Token Len": 805
+    },
+    {
+        "QID": 2356,
+        "Token Len": 822
+    },
+    {
+        "QID": 2362,
+        "Token Len": 861
+    },
+    {
+        "QID": 2363,
+        "Token Len": 641
+    },
+    {
+        "QID": 2378,
+        "Token Len": 923
+    },
+    {
+        "QID": 2379,
+        "Token Len": 1216
+    },
+    {
+        "QID": 2381,
+        "Token Len": 1053
+    },
+    {
+        "QID": 2390,
+        "Token Len": 863
+    },
+    {
+        "QID": 2391,
+        "Token Len": 983
+    },
+    {
+        "QID": 2396,
+        "Token Len": 1581
+    },
+    {
+        "QID": 2404,
+        "Token Len": 1493
+    },
+    {
+        "QID": 2410,
+        "Token Len": 812
+    },
+    {
+        "QID": 2413,
+        "Token Len": 733
+    },
+    {
+        "QID": 2414,
+        "Token Len": 1047
+    },
+    {
+        "QID": 2415,
+        "Token Len": 1249
+    },
+    {
+        "QID": 2420,
+        "Token Len": 1747
+    },
+    {
+        "QID": 2421,
+        "Token Len": 934
+    },
+    {
+        "QID": 2422,
+        "Token Len": 808
+    },
+    {
+        "QID": 2424,
+        "Token Len": 930
+    },
+    {
+        "QID": 2430,
+        "Token Len": 776
+    },
+    {
+        "QID": 2435,
+        "Token Len": 1351
+    },
+    {
+        "QID": 2437,
+        "Token Len": 1373
+    },
+    {
+        "QID": 2439,
+        "Token Len": 455
+    },
+    {
+        "QID": 2441,
+        "Token Len": 735
+    },
+    {
+        "QID": 2447,
+        "Token Len": 1178
+    },
+    {
+        "QID": 2449,
+        "Token Len": 924
+    },
+    {
+        "QID": 2450,
+        "Token Len": 617
+    },
+    {
+        "QID": 2451,
+        "Token Len": 947
+    },
+    {
+        "QID": 2453,
+        "Token Len": 825
+    },
+    {
+        "QID": 2459,
+        "Token Len": 1272
+    },
+    {
+        "QID": 2466,
+        "Token Len": 952
+    },
+    {
+        "QID": 2473,
+        "Token Len": 1039
+    },
+    {
+        "QID": 2475,
+        "Token Len": 1096
+    },
+    {
+        "QID": 2479,
+        "Token Len": 704
+    },
+    {
+        "QID": 2482,
+        "Token Len": 1491
+    },
+    {
+        "QID": 2486,
+        "Token Len": 1104
+    },
+    {
+        "QID": 2492,
+        "Token Len": 891
+    },
+    {
+        "QID": 2494,
+        "Token Len": 854
+    },
+    {
+        "QID": 2508,
+        "Token Len": 1205
+    },
+    {
+        "QID": 2509,
+        "Token Len": 666
+    },
+    {
+        "QID": 2512,
+        "Token Len": 1442
+    },
+    {
+        "QID": 2514,
+        "Token Len": 822
+    },
+    {
+        "QID": 2519,
+        "Token Len": 1093
+    },
+    {
+        "QID": 2528,
+        "Token Len": 842
+    },
+    {
+        "QID": 2532,
+        "Token Len": 768
+    },
+    {
+        "QID": 2534,
+        "Token Len": 899
+    },
+    {
+        "QID": 2535,
+        "Token Len": 963
+    },
+    {
+        "QID": 2543,
+        "Token Len": 937
+    },
+    {
+        "QID": 2551,
+        "Token Len": 1454
+    },
+    {
+        "QID": 2554,
+        "Token Len": 584
+    },
+    {
+        "QID": 2557,
+        "Token Len": 1152
+    },
+    {
+        "QID": 2558,
+        "Token Len": 780
+    },
+    {
+        "QID": 2560,
+        "Token Len": 965
+    },
+    {
+        "QID": 2561,
+        "Token Len": 702
+    },
+    {
+        "QID": 2562,
+        "Token Len": 875
+    },
+    {
+        "QID": 2566,
+        "Token Len": 905
+    },
+    {
+        "QID": 2568,
+        "Token Len": 1412
+    },
+    {
+        "QID": 2570,
+        "Token Len": 2263
+    },
+    {
+        "QID": 2579,
+        "Token Len": 780
+    },
+    {
+        "QID": 2580,
+        "Token Len": 1111
+    },
+    {
+        "QID": 2584,
+        "Token Len": 1104
+    },
+    {
+        "QID": 2588,
+        "Token Len": 1143
+    },
+    {
+        "QID": 2613,
+        "Token Len": 1226
+    },
+    {
+        "QID": 2614,
+        "Token Len": 899
+    },
+    {
+        "QID": 2622,
+        "Token Len": 2077
+    },
+    {
+        "QID": 2623,
+        "Token Len": 941
+    },
+    {
+        "QID": 2624,
+        "Token Len": 996
+    },
+    {
+        "QID": 2625,
+        "Token Len": 1729
+    },
+    {
+        "QID": 2627,
+        "Token Len": 627
+    },
+    {
+        "QID": 2629,
+        "Token Len": 670
+    },
+    {
+        "QID": 2634,
+        "Token Len": 1007
+    },
+    {
+        "QID": 2635,
+        "Token Len": 998
+    },
+    {
+        "QID": 2642,
+        "Token Len": 897
+    },
+    {
+        "QID": 2643,
+        "Token Len": 1141
+    },
+    {
+        "QID": 2645,
+        "Token Len": 647
+    },
+    {
+        "QID": 2646,
+        "Token Len": 765
+    },
+    {
+        "QID": 2648,
+        "Token Len": 911
+    },
+    {
+        "QID": 2650,
+        "Token Len": 633
+    },
+    {
+        "QID": 2654,
+        "Token Len": 1118
+    },
+    {
+        "QID": 2657,
+        "Token Len": 1056
+    },
+    {
+        "QID": 2662,
+        "Token Len": 899
+    },
+    {
+        "QID": 2672,
+        "Token Len": 777
+    },
+    {
+        "QID": 2673,
+        "Token Len": 719
+    },
+    {
+        "QID": 2678,
+        "Token Len": 813
+    },
+    {
+        "QID": 2689,
+        "Token Len": 1245
+    },
+    {
+        "QID": 2693,
+        "Token Len": 1644
+    },
+    {
+        "QID": 2694,
+        "Token Len": 1099
+    },
+    {
+        "QID": 2696,
+        "Token Len": 1077
+    },
+    {
+        "QID": 2700,
+        "Token Len": 1127
+    },
+    {
+        "QID": 2703,
+        "Token Len": 671
+    },
+    {
+        "QID": 2706,
+        "Token Len": 799
+    },
+    {
+        "QID": 2715,
+        "Token Len": 1052
+    },
+    {
+        "QID": 2719,
+        "Token Len": 1104
+    },
+    {
+        "QID": 2722,
+        "Token Len": 2495
+    },
+    {
+        "QID": 2727,
+        "Token Len": 779
+    },
+    {
+        "QID": 2740,
+        "Token Len": 902
+    },
+    {
+        "QID": 2743,
+        "Token Len": 1802
+    },
+    {
+        "QID": 2744,
+        "Token Len": 838
+    },
+    {
+        "QID": 2756,
+        "Token Len": 1054
+    },
+    {
+        "QID": 2759,
+        "Token Len": 1136
+    },
+    {
+        "QID": 2760,
+        "Token Len": 1298
+    },
+    {
+        "QID": 2763,
+        "Token Len": 997
+    },
+    {
+        "QID": 2766,
+        "Token Len": 755
+    },
+    {
+        "QID": 2767,
+        "Token Len": 811
+    },
+    {
+        "QID": 2768,
+        "Token Len": 835
+    },
+    {
+        "QID": 2769,
+        "Token Len": 1054
+    },
+    {
+        "QID": 2778,
+        "Token Len": 1321
+    },
+    {
+        "QID": 2780,
+        "Token Len": 1032
+    },
+    {
+        "QID": 2785,
+        "Token Len": 1519
+    },
+    {
+        "QID": 2786,
+        "Token Len": 900
+    },
+    {
+        "QID": 2787,
+        "Token Len": 869
+    },
+    {
+        "QID": 2789,
+        "Token Len": 1119
+    },
+    {
+        "QID": 2792,
+        "Token Len": 2142
+    },
+    {
+        "QID": 2798,
+        "Token Len": 1135
+    },
+    {
+        "QID": 2801,
+        "Token Len": 585
+    },
+    {
+        "QID": 2812,
+        "Token Len": 1909
+    },
+    {
+        "QID": 2821,
+        "Token Len": 704
+    },
+    {
+        "QID": 2822,
+        "Token Len": 888
+    },
+    {
+        "QID": 2823,
+        "Token Len": 866
+    },
+    {
+        "QID": 2825,
+        "Token Len": 1298
+    },
+    {
+        "QID": 2833,
+        "Token Len": 699
+    },
+    {
+        "QID": 2834,
+        "Token Len": 1583
+    },
+    {
+        "QID": 2839,
+        "Token Len": 774
+    },
+    {
+        "QID": 2843,
+        "Token Len": 906
+    },
+    {
+        "QID": 2847,
+        "Token Len": 845
+    },
+    {
+        "QID": 2848,
+        "Token Len": 958
+    },
+    {
+        "QID": 2851,
+        "Token Len": 1715
+    },
+    {
+        "QID": 2852,
+        "Token Len": 1181
+    },
+    {
+        "QID": 2864,
+        "Token Len": 1181
+    },
+    {
+        "QID": 2865,
+        "Token Len": 830
+    },
+    {
+        "QID": 2869,
+        "Token Len": 1000
+    },
+    {
+        "QID": 2872,
+        "Token Len": 920
+    },
+    {
+        "QID": 2875,
+        "Token Len": 851
+    },
+    {
+        "QID": 2876,
+        "Token Len": 1599
+    },
+    {
+        "QID": 2878,
+        "Token Len": 812
+    },
+    {
+        "QID": 2879,
+        "Token Len": 979
+    },
+    {
+        "QID": 2880,
+        "Token Len": 946
+    },
+    {
+        "QID": 2881,
+        "Token Len": 1052
+    },
+    {
+        "QID": 2882,
+        "Token Len": 1225
+    },
+    {
+        "QID": 2885,
+        "Token Len": 1151
+    },
+    {
+        "QID": 2893,
+        "Token Len": 934
+    },
+    {
+        "QID": 2895,
+        "Token Len": 1149
+    },
+    {
+        "QID": 2898,
+        "Token Len": 744
+    },
+    {
+        "QID": 2899,
+        "Token Len": 1040
+    },
+    {
+        "QID": 2906,
+        "Token Len": 972
+    },
+    {
+        "QID": 2907,
+        "Token Len": 1303
+    },
+    {
+        "QID": 2909,
+        "Token Len": 998
+    },
+    {
+        "QID": 2912,
+        "Token Len": 1026
+    },
+    {
+        "QID": 2917,
+        "Token Len": 1221
+    },
+    {
+        "QID": 2928,
+        "Token Len": 1211
+    },
+    {
+        "QID": 2929,
+        "Token Len": 888
+    },
+    {
+        "QID": 2934,
+        "Token Len": 903
+    },
+    {
+        "QID": 2939,
+        "Token Len": 690
+    },
+    {
+        "QID": 2942,
+        "Token Len": 1207
+    },
+    {
+        "QID": 2943,
+        "Token Len": 659
+    },
+    {
+        "QID": 2946,
+        "Token Len": 840
+    },
+    {
+        "QID": 2949,
+        "Token Len": 731
+    },
+    {
+        "QID": 2952,
+        "Token Len": 894
+    },
+    {
+        "QID": 2956,
+        "Token Len": 1039
+    },
+    {
+        "QID": 2958,
+        "Token Len": 947
+    },
+    {
+        "QID": 2961,
+        "Token Len": 1050
+    },
+    {
+        "QID": 2963,
+        "Token Len": 955
+    },
+    {
+        "QID": 2965,
+        "Token Len": 3636
+    },
+    {
+        "QID": 2978,
+        "Token Len": 1213
+    },
+    {
+        "QID": 2981,
+        "Token Len": 599
+    },
+    {
+        "QID": 2982,
+        "Token Len": 1185
+    },
+    {
+        "QID": 2984,
+        "Token Len": 1186
+    },
+    {
+        "QID": 2987,
+        "Token Len": 2682
+    },
+    {
+        "QID": 2995,
+        "Token Len": 1020
+    },
+    {
+        "QID": 3003,
+        "Token Len": 646
+    },
+    {
+        "QID": 3006,
+        "Token Len": 787
+    },
+    {
+        "QID": 3007,
+        "Token Len": 734
+    },
+    {
+        "QID": 3018,
+        "Token Len": 1082
+    },
+    {
+        "QID": 3019,
+        "Token Len": 1338
+    },
+    {
+        "QID": 3020,
+        "Token Len": 855
+    },
+    {
+        "QID": 3030,
+        "Token Len": 895
+    },
+    {
+        "QID": 3031,
+        "Token Len": 1141
+    },
+    {
+        "QID": 3032,
+        "Token Len": 863
+    },
+    {
+        "QID": 3041,
+        "Token Len": 777
+    },
+    {
+        "QID": 3051,
+        "Token Len": 896
+    },
+    {
+        "QID": 3052,
+        "Token Len": 776
+    },
+    {
+        "QID": 3055,
+        "Token Len": 638
+    },
+    {
+        "QID": 3057,
+        "Token Len": 912
+    },
+    {
+        "QID": 3058,
+        "Token Len": 1108
+    },
+    {
+        "QID": 3063,
+        "Token Len": 956
+    },
+    {
+        "QID": 3069,
+        "Token Len": 861
+    },
+    {
+        "QID": 3074,
+        "Token Len": 1653
+    },
+    {
+        "QID": 3090,
+        "Token Len": 1050
+    },
+    {
+        "QID": 3093,
+        "Token Len": 793
+    },
+    {
+        "QID": 3096,
+        "Token Len": 1202
+    },
+    {
+        "QID": 3097,
+        "Token Len": 949
+    },
+    {
+        "QID": 3098,
+        "Token Len": 671
+    },
+    {
+        "QID": 3105,
+        "Token Len": 773
+    },
+    {
+        "QID": 3109,
+        "Token Len": 948
+    },
+    {
+        "QID": 3112,
+        "Token Len": 1112
+    },
+    {
+        "QID": 3115,
+        "Token Len": 1092
+    },
+    {
+        "QID": 3123,
+        "Token Len": 1192
+    },
+    {
+        "QID": 3135,
+        "Token Len": 1267
+    },
+    {
+        "QID": 3137,
+        "Token Len": 904
+    },
+    {
+        "QID": 3143,
+        "Token Len": 1421
+    },
+    {
+        "QID": 3146,
+        "Token Len": 974
+    },
+    {
+        "QID": 3151,
+        "Token Len": 885
+    },
+    {
+        "QID": 3156,
+        "Token Len": 887
+    },
+    {
+        "QID": 3158,
+        "Token Len": 1287
+    },
+    {
+        "QID": 3163,
+        "Token Len": 1236
+    },
+    {
+        "QID": 3167,
+        "Token Len": 765
+    },
+    {
+        "QID": 3170,
+        "Token Len": 1205
+    },
+    {
+        "QID": 3173,
+        "Token Len": 808
+    },
+    {
+        "QID": 3178,
+        "Token Len": 1226
+    },
+    {
+        "QID": 3190,
+        "Token Len": 2004
+    },
+    {
+        "QID": 3201,
+        "Token Len": 1020
+    },
+    {
+        "QID": 3203,
+        "Token Len": 1066
+    },
+    {
+        "QID": 3208,
+        "Token Len": 1167
+    },
+    {
+        "QID": 3209,
+        "Token Len": 1023
+    },
+    {
+        "QID": 3211,
+        "Token Len": 988
+    },
+    {
+        "QID": 3212,
+        "Token Len": 1122
+    },
+    {
+        "QID": 3213,
+        "Token Len": 945
+    },
+    {
+        "QID": 3215,
+        "Token Len": 641
+    },
+    {
+        "QID": 3216,
+        "Token Len": 609
+    },
+    {
+        "QID": 3224,
+        "Token Len": 1381
+    },
+    {
+        "QID": 3227,
+        "Token Len": 939
+    },
+    {
+        "QID": 3228,
+        "Token Len": 1198
+    },
+    {
+        "QID": 3232,
+        "Token Len": 2410
+    },
+    {
+        "QID": 3238,
+        "Token Len": 864
+    },
+    {
+        "QID": 3239,
+        "Token Len": 1623
+    },
+    {
+        "QID": 3241,
+        "Token Len": 609
+    },
+    {
+        "QID": 3243,
+        "Token Len": 892
+    },
+    {
+        "QID": 3247,
+        "Token Len": 1061
+    },
+    {
+        "QID": 3255,
+        "Token Len": 827
+    },
+    {
+        "QID": 3258,
+        "Token Len": 1678
+    },
+    {
+        "QID": 3261,
+        "Token Len": 768
+    },
+    {
+        "QID": 3266,
+        "Token Len": 1979
+    },
+    {
+        "QID": 3270,
+        "Token Len": 1144
+    },
+    {
+        "QID": 3271,
+        "Token Len": 1269
+    },
+    {
+        "QID": 3278,
+        "Token Len": 803
+    },
+    {
+        "QID": 3289,
+        "Token Len": 661
+    },
+    {
+        "QID": 3296,
+        "Token Len": 839
+    },
+    {
+        "QID": 3300,
+        "Token Len": 968
+    },
+    {
+        "QID": 3303,
+        "Token Len": 1044
+    },
+    {
+        "QID": 3310,
+        "Token Len": 1027
+    },
+    {
+        "QID": 3319,
+        "Token Len": 879
+    },
+    {
+        "QID": 3320,
+        "Token Len": 929
+    },
+    {
+        "QID": 3325,
+        "Token Len": 883
+    },
+    {
+        "QID": 3329,
+        "Token Len": 1098
+    },
+    {
+        "QID": 3330,
+        "Token Len": 1081
+    },
+    {
+        "QID": 3334,
+        "Token Len": 1077
+    },
+    {
+        "QID": 3335,
+        "Token Len": 676
+    },
+    {
+        "QID": 3338,
+        "Token Len": 921
+    },
+    {
+        "QID": 3342,
+        "Token Len": 920
+    },
+    {
+        "QID": 3346,
+        "Token Len": 594
+    },
+    {
+        "QID": 3347,
+        "Token Len": 900
+    },
+    {
+        "QID": 3350,
+        "Token Len": 529
+    },
+    {
+        "QID": 3353,
+        "Token Len": 824
+    },
+    {
+        "QID": 3355,
+        "Token Len": 755
+    },
+    {
+        "QID": 3357,
+        "Token Len": 932
+    },
+    {
+        "QID": 3363,
+        "Token Len": 1122
+    },
+    {
+        "QID": 3365,
+        "Token Len": 1304
+    },
+    {
+        "QID": 3366,
+        "Token Len": 875
+    },
+    {
+        "QID": 3370,
+        "Token Len": 972
+    },
+    {
+        "QID": 3377,
+        "Token Len": 881
+    },
+    {
+        "QID": 3382,
+        "Token Len": 1257
+    },
+    {
+        "QID": 3383,
+        "Token Len": 1157
+    },
+    {
+        "QID": 3384,
+        "Token Len": 706
+    },
+    {
+        "QID": 3386,
+        "Token Len": 1241
+    },
+    {
+        "QID": 3390,
+        "Token Len": 584
+    },
+    {
+        "QID": 3391,
+        "Token Len": 920
+    },
+    {
+        "QID": 3392,
+        "Token Len": 1096
+    },
+    {
+        "QID": 3396,
+        "Token Len": 1478
+    },
+    {
+        "QID": 3399,
+        "Token Len": 936
+    },
+    {
+        "QID": 3406,
+        "Token Len": 884
+    },
+    {
+        "QID": 3410,
+        "Token Len": 800
+    },
+    {
+        "QID": 3413,
+        "Token Len": 790
+    },
+    {
+        "QID": 3415,
+        "Token Len": 1039
+    },
+    {
+        "QID": 3423,
+        "Token Len": 1635
+    },
+    {
+        "QID": 3424,
+        "Token Len": 896
+    },
+    {
+        "QID": 3427,
+        "Token Len": 693
+    },
+    {
+        "QID": 3433,
+        "Token Len": 1419
+    },
+    {
+        "QID": 3434,
+        "Token Len": 1223
+    },
+    {
+        "QID": 3440,
+        "Token Len": 895
+    },
+    {
+        "QID": 3447,
+        "Token Len": 1162
+    },
+    {
+        "QID": 3463,
+        "Token Len": 1072
+    },
+    {
+        "QID": 3464,
+        "Token Len": 1408
+    },
+    {
+        "QID": 3465,
+        "Token Len": 1210
+    },
+    {
+        "QID": 3468,
+        "Token Len": 925
+    },
+    {
+        "QID": 3471,
+        "Token Len": 879
+    },
+    {
+        "QID": 3478,
+        "Token Len": 980
+    },
+    {
+        "QID": 3488,
+        "Token Len": 1087
+    },
+    {
+        "QID": 3490,
+        "Token Len": 865
+    },
+    {
+        "QID": 3491,
+        "Token Len": 1089
+    },
+    {
+        "QID": 3494,
+        "Token Len": 2444
+    },
+    {
+        "QID": 3504,
+        "Token Len": 712
+    },
+    {
+        "QID": 3507,
+        "Token Len": 607
+    },
+    {
+        "QID": 3508,
+        "Token Len": 846
+    },
+    {
+        "QID": 3514,
+        "Token Len": 813
+    },
+    {
+        "QID": 3515,
+        "Token Len": 965
+    },
+    {
+        "QID": 3516,
+        "Token Len": 1355
+    },
+    {
+        "QID": 3517,
+        "Token Len": 1531
+    },
+    {
+        "QID": 3522,
+        "Token Len": 1384
+    },
+    {
+        "QID": 3528,
+        "Token Len": 1007
+    },
+    {
+        "QID": 3531,
+        "Token Len": 1631
+    },
+    {
+        "QID": 3532,
+        "Token Len": 1069
+    },
+    {
+        "QID": 3535,
+        "Token Len": 1069
+    },
+    {
+        "QID": 3537,
+        "Token Len": 778
+    },
+    {
+        "QID": 3539,
+        "Token Len": 1020
+    },
+    {
+        "QID": 3580,
+        "Token Len": 642
+    },
+    {
+        "QID": 3581,
+        "Token Len": 1171
+    },
+    {
+        "QID": 3585,
+        "Token Len": 1029
+    },
+    {
+        "QID": 3595,
+        "Token Len": 1086
+    },
+    {
+        "QID": 3597,
+        "Token Len": 1037
+    },
+    {
+        "QID": 3600,
+        "Token Len": 2175
+    },
+    {
+        "QID": 3603,
+        "Token Len": 768
+    },
+    {
+        "QID": 3605,
+        "Token Len": 772
+    },
+    {
+        "QID": 3614,
+        "Token Len": 1458
+    },
+    {
+        "QID": 3617,
+        "Token Len": 2330
+    },
+    {
+        "QID": 3621,
+        "Token Len": 1037
+    },
+    {
+        "QID": 3622,
+        "Token Len": 1233
+    },
+    {
+        "QID": 3623,
+        "Token Len": 1170
+    },
+    {
+        "QID": 3625,
+        "Token Len": 1115
+    },
+    {
+        "QID": 3627,
+        "Token Len": 1313
+    },
+    {
+        "QID": 3632,
+        "Token Len": 778
+    },
+    {
+        "QID": 3633,
+        "Token Len": 1183
+    },
+    {
+        "QID": 3638,
+        "Token Len": 1959
+    },
+    {
+        "QID": 3639,
+        "Token Len": 1041
+    },
+    {
+        "QID": 3640,
+        "Token Len": 722
+    },
+    {
+        "QID": 3642,
+        "Token Len": 1187
+    },
+    {
+        "QID": 3643,
+        "Token Len": 1062
+    },
+    {
+        "QID": 3649,
+        "Token Len": 1510
+    },
+    {
+        "QID": 3653,
+        "Token Len": 1138
+    },
+    {
+        "QID": 3661,
+        "Token Len": 1226
+    },
+    {
+        "QID": 3662,
+        "Token Len": 1352
+    },
+    {
+        "QID": 3664,
+        "Token Len": 1101
+    },
+    {
+        "QID": 3666,
+        "Token Len": 740
+    },
+    {
+        "QID": 3667,
+        "Token Len": 790
+    },
+    {
+        "QID": 3668,
+        "Token Len": 859
+    },
+    {
+        "QID": 3671,
+        "Token Len": 1639
+    },
+    {
+        "QID": 3676,
+        "Token Len": 1407
+    },
+    {
+        "QID": 3678,
+        "Token Len": 952
+    },
+    {
+        "QID": 3679,
+        "Token Len": 1575
+    },
+    {
+        "QID": 3682,
+        "Token Len": 1170
+    },
+    {
+        "QID": 3684,
+        "Token Len": 559
+    },
+    {
+        "QID": 3686,
+        "Token Len": 865
+    },
+    {
+        "QID": 3687,
+        "Token Len": 1237
+    },
+    {
+        "QID": 3693,
+        "Token Len": 1133
+    },
+    {
+        "QID": 3694,
+        "Token Len": 826
+    },
+    {
+        "QID": 3695,
+        "Token Len": 1017
+    },
+    {
+        "QID": 3697,
+        "Token Len": 1584
+    },
+    {
+        "QID": 3698,
+        "Token Len": 1498
+    },
+    {
+        "QID": 3699,
+        "Token Len": 1016
+    },
+    {
+        "QID": 3701,
+        "Token Len": 1323
+    },
+    {
+        "QID": 3710,
+        "Token Len": 697
+    },
+    {
+        "QID": 3712,
+        "Token Len": 854
+    },
+    {
+        "QID": 3716,
+        "Token Len": 962
+    },
+    {
+        "QID": 3719,
+        "Token Len": 639
+    },
+    {
+        "QID": 3722,
+        "Token Len": 878
+    },
+    {
+        "QID": 3724,
+        "Token Len": 1264
+    },
+    {
+        "QID": 3727,
+        "Token Len": 1429
+    },
+    {
+        "QID": 3728,
+        "Token Len": 1157
+    },
+    {
+        "QID": 3731,
+        "Token Len": 880
+    },
+    {
+        "QID": 3736,
+        "Token Len": 1190
+    },
+    {
+        "QID": 3738,
+        "Token Len": 1011
+    },
+    {
+        "QID": 3739,
+        "Token Len": 773
+    },
+    {
+        "QID": 3745,
+        "Token Len": 1296
+    },
+    {
+        "QID": 3747,
+        "Token Len": 892
+    },
+    {
+        "QID": 3749,
+        "Token Len": 696
+    },
+    {
+        "QID": 3755,
+        "Token Len": 944
+    },
+    {
+        "QID": 3759,
+        "Token Len": 1102
+    },
+    {
+        "QID": 3760,
+        "Token Len": 1003
+    },
+    {
+        "QID": 3762,
+        "Token Len": 1122
+    },
+    {
+        "QID": 3772,
+        "Token Len": 1117
+    },
+    {
+        "QID": 3775,
+        "Token Len": 1054
+    },
+    {
+        "QID": 3778,
+        "Token Len": 861
+    },
+    {
+        "QID": 3795,
+        "Token Len": 1467
+    },
+    {
+        "QID": 3801,
+        "Token Len": 1138
+    },
+    {
+        "QID": 3808,
+        "Token Len": 1318
+    },
+    {
+        "QID": 3810,
+        "Token Len": 686
+    },
+    {
+        "QID": 3811,
+        "Token Len": 1043
+    },
+    {
+        "QID": 3813,
+        "Token Len": 884
+    },
+    {
+        "QID": 3814,
+        "Token Len": 731
+    },
+    {
+        "QID": 3819,
+        "Token Len": 804
+    },
+    {
+        "QID": 3829,
+        "Token Len": 1362
+    },
+    {
+        "QID": 3837,
+        "Token Len": 662
+    },
+    {
+        "QID": 3838,
+        "Token Len": 1941
+    },
+    {
+        "QID": 3852,
+        "Token Len": 1979
+    },
+    {
+        "QID": 3861,
+        "Token Len": 973
+    },
+    {
+        "QID": 3862,
+        "Token Len": 824
+    },
+    {
+        "QID": 3868,
+        "Token Len": 928
+    },
+    {
+        "QID": 3873,
+        "Token Len": 672
+    },
+    {
+        "QID": 3880,
+        "Token Len": 1323
+    },
+    {
+        "QID": 3884,
+        "Token Len": 945
+    },
+    {
+        "QID": 3885,
+        "Token Len": 1042
+    },
+    {
+        "QID": 3886,
+        "Token Len": 854
+    },
+    {
+        "QID": 3894,
+        "Token Len": 590
+    },
+    {
+        "QID": 3895,
+        "Token Len": 1386
+    },
+    {
+        "QID": 3896,
+        "Token Len": 1163
+    },
+    {
+        "QID": 3897,
+        "Token Len": 1063
+    },
+    {
+        "QID": 3899,
+        "Token Len": 637
+    },
+    {
+        "QID": 3901,
+        "Token Len": 1031
+    },
+    {
+        "QID": 3906,
+        "Token Len": 672
+    },
+    {
+        "QID": 3913,
+        "Token Len": 859
+    },
+    {
+        "QID": 3927,
+        "Token Len": 605
+    },
+    {
+        "QID": 3928,
+        "Token Len": 674
+    },
+    {
+        "QID": 3929,
+        "Token Len": 796
+    },
+    {
+        "QID": 3930,
+        "Token Len": 1097
+    },
+    {
+        "QID": 3931,
+        "Token Len": 685
+    },
+    {
+        "QID": 3932,
+        "Token Len": 1250
+    },
+    {
+        "QID": 3935,
+        "Token Len": 1050
+    },
+    {
+        "QID": 3939,
+        "Token Len": 1201
+    },
+    {
+        "QID": 3943,
+        "Token Len": 1415
+    },
+    {
+        "QID": 3945,
+        "Token Len": 1712
+    },
+    {
+        "QID": 3946,
+        "Token Len": 1919
+    },
+    {
+        "QID": 3947,
+        "Token Len": 1640
+    },
+    {
+        "QID": 3950,
+        "Token Len": 1392
+    },
+    {
+        "QID": 3954,
+        "Token Len": 1105
+    },
+    {
+        "QID": 3967,
+        "Token Len": 1020
+    },
+    {
+        "QID": 3970,
+        "Token Len": 890
+    },
+    {
+        "QID": 3971,
+        "Token Len": 692
+    },
+    {
+        "QID": 3981,
+        "Token Len": 1574
+    },
+    {
+        "QID": 3982,
+        "Token Len": 741
+    },
+    {
+        "QID": 3985,
+        "Token Len": 1299
+    },
+    {
+        "QID": 3988,
+        "Token Len": 1021
+    },
+    {
+        "QID": 3991,
+        "Token Len": 1311
+    },
+    {
+        "QID": 3994,
+        "Token Len": 1164
+    },
+    {
+        "QID": 3997,
+        "Token Len": 862
+    },
+    {
+        "QID": 3998,
+        "Token Len": 671
+    },
+    {
+        "QID": 4005,
+        "Token Len": 864
+    },
+    {
+        "QID": 4006,
+        "Token Len": 1308
+    },
+    {
+        "QID": 4008,
+        "Token Len": 975
+    },
+    {
+        "QID": 4009,
+        "Token Len": 1232
+    },
+    {
+        "QID": 4011,
+        "Token Len": 569
+    },
+    {
+        "QID": 4015,
+        "Token Len": 1288
+    },
+    {
+        "QID": 4017,
+        "Token Len": 1210
+    },
+    {
+        "QID": 4019,
+        "Token Len": 906
+    },
+    {
+        "QID": 4021,
+        "Token Len": 1429
+    },
+    {
+        "QID": 4026,
+        "Token Len": 1630
+    },
+    {
+        "QID": 4032,
+        "Token Len": 761
+    },
+    {
+        "QID": 4033,
+        "Token Len": 608
+    },
+    {
+        "QID": 4036,
+        "Token Len": 687
+    },
+    {
+        "QID": 4043,
+        "Token Len": 1035
+    },
+    {
+        "QID": 4046,
+        "Token Len": 811
+    },
+    {
+        "QID": 4052,
+        "Token Len": 982
+    },
+    {
+        "QID": 4054,
+        "Token Len": 829
+    },
+    {
+        "QID": 4058,
+        "Token Len": 903
+    },
+    {
+        "QID": 4059,
+        "Token Len": 719
+    },
+    {
+        "QID": 4062,
+        "Token Len": 869
+    },
+    {
+        "QID": 4063,
+        "Token Len": 835
+    },
+    {
+        "QID": 4064,
+        "Token Len": 1214
+    },
+    {
+        "QID": 4066,
+        "Token Len": 1419
+    },
+    {
+        "QID": 4068,
+        "Token Len": 824
+    },
+    {
+        "QID": 4071,
+        "Token Len": 1700
+    },
+    {
+        "QID": 4078,
+        "Token Len": 900
+    },
+    {
+        "QID": 4080,
+        "Token Len": 749
+    },
+    {
+        "QID": 4084,
+        "Token Len": 1332
+    },
+    {
+        "QID": 4085,
+        "Token Len": 994
+    },
+    {
+        "QID": 4090,
+        "Token Len": 820
+    },
+    {
+        "QID": 4098,
+        "Token Len": 1305
+    },
+    {
+        "QID": 4107,
+        "Token Len": 810
+    },
+    {
+        "QID": 4109,
+        "Token Len": 873
+    },
+    {
+        "QID": 4114,
+        "Token Len": 729
+    },
+    {
+        "QID": 4115,
+        "Token Len": 754
+    },
+    {
+        "QID": 4118,
+        "Token Len": 631
+    },
+    {
+        "QID": 4119,
+        "Token Len": 723
+    },
+    {
+        "QID": 4120,
+        "Token Len": 807
+    },
+    {
+        "QID": 4121,
+        "Token Len": 536
+    },
+    {
+        "QID": 4124,
+        "Token Len": 944
+    },
+    {
+        "QID": 4132,
+        "Token Len": 1108
+    },
+    {
+        "QID": 4134,
+        "Token Len": 1213
+    },
+    {
+        "QID": 4155,
+        "Token Len": 1507
+    },
+    {
+        "QID": 4159,
+        "Token Len": 923
+    },
+    {
+        "QID": 4160,
+        "Token Len": 913
+    },
+    {
+        "QID": 4164,
+        "Token Len": 1088
+    },
+    {
+        "QID": 4166,
+        "Token Len": 792
+    },
+    {
+        "QID": 4168,
+        "Token Len": 2592
+    },
+    {
+        "QID": 4171,
+        "Token Len": 859
+    },
+    {
+        "QID": 4188,
+        "Token Len": 1025
+    },
+    {
+        "QID": 4189,
+        "Token Len": 961
+    },
+    {
+        "QID": 4202,
+        "Token Len": 708
+    },
+    {
+        "QID": 4208,
+        "Token Len": 1148
+    },
+    {
+        "QID": 4210,
+        "Token Len": 573
+    },
+    {
+        "QID": 4211,
+        "Token Len": 1080
+    },
+    {
+        "QID": 4212,
+        "Token Len": 977
+    },
+    {
+        "QID": 4219,
+        "Token Len": 1009
+    },
+    {
+        "QID": 4224,
+        "Token Len": 2798
+    },
+    {
+        "QID": 4225,
+        "Token Len": 1138
+    },
+    {
+        "QID": 4227,
+        "Token Len": 730
+    },
+    {
+        "QID": 4229,
+        "Token Len": 1017
+    },
+    {
+        "QID": 4230,
+        "Token Len": 1109
+    },
+    {
+        "QID": 4231,
+        "Token Len": 963
+    },
+    {
+        "QID": 4234,
+        "Token Len": 1304
+    },
+    {
+        "QID": 4239,
+        "Token Len": 1367
+    },
+    {
+        "QID": 4241,
+        "Token Len": 1045
+    },
+    {
+        "QID": 4243,
+        "Token Len": 936
+    },
+    {
+        "QID": 4245,
+        "Token Len": 1018
+    },
+    {
+        "QID": 4246,
+        "Token Len": 718
+    },
+    {
+        "QID": 4249,
+        "Token Len": 1214
+    },
+    {
+        "QID": 4251,
+        "Token Len": 899
+    },
+    {
+        "QID": 4252,
+        "Token Len": 1067
+    },
+    {
+        "QID": 4254,
+        "Token Len": 911
+    },
+    {
+        "QID": 4257,
+        "Token Len": 1717
+    },
+    {
+        "QID": 4259,
+        "Token Len": 1104
+    },
+    {
+        "QID": 4261,
+        "Token Len": 756
+    },
+    {
+        "QID": 4265,
+        "Token Len": 1003
+    },
+    {
+        "QID": 4268,
+        "Token Len": 544
+    },
+    {
+        "QID": 4270,
+        "Token Len": 890
+    },
+    {
+        "QID": 4271,
+        "Token Len": 1372
+    },
+    {
+        "QID": 4273,
+        "Token Len": 850
+    },
+    {
+        "QID": 4275,
+        "Token Len": 1474
+    },
+    {
+        "QID": 4283,
+        "Token Len": 758
+    },
+    {
+        "QID": 4285,
+        "Token Len": 655
+    },
+    {
+        "QID": 4286,
+        "Token Len": 1193
+    },
+    {
+        "QID": 4289,
+        "Token Len": 497
+    },
+    {
+        "QID": 4292,
+        "Token Len": 917
+    },
+    {
+        "QID": 4293,
+        "Token Len": 1172
+    },
+    {
+        "QID": 4295,
+        "Token Len": 949
+    },
+    {
+        "QID": 4299,
+        "Token Len": 1070
+    },
+    {
+        "QID": 4301,
+        "Token Len": 1458
+    },
+    {
+        "QID": 4306,
+        "Token Len": 1316
+    },
+    {
+        "QID": 4317,
+        "Token Len": 623
+    },
+    {
+        "QID": 4318,
+        "Token Len": 1394
+    },
+    {
+        "QID": 4321,
+        "Token Len": 1410
+    },
+    {
+        "QID": 4323,
+        "Token Len": 1096
+    },
+    {
+        "QID": 4331,
+        "Token Len": 1215
+    },
+    {
+        "QID": 4341,
+        "Token Len": 761
+    },
+    {
+        "QID": 4342,
+        "Token Len": 1205
+    },
+    {
+        "QID": 4352,
+        "Token Len": 6682
+    },
+    {
+        "QID": 4354,
+        "Token Len": 990
+    },
+    {
+        "QID": 4362,
+        "Token Len": 1226
+    },
+    {
+        "QID": 4366,
+        "Token Len": 1607
+    },
+    {
+        "QID": 4381,
+        "Token Len": 558
+    },
+    {
+        "QID": 4390,
+        "Token Len": 1282
+    },
+    {
+        "QID": 4396,
+        "Token Len": 1345
+    },
+    {
+        "QID": 4397,
+        "Token Len": 650
+    },
+    {
+        "QID": 4399,
+        "Token Len": 599
+    },
+    {
+        "QID": 4406,
+        "Token Len": 900
+    },
+    {
+        "QID": 4407,
+        "Token Len": 1366
+    },
+    {
+        "QID": 4408,
+        "Token Len": 1122
+    },
+    {
+        "QID": 4413,
+        "Token Len": 1506
+    },
+    {
+        "QID": 4416,
+        "Token Len": 2014
+    },
+    {
+        "QID": 4417,
+        "Token Len": 876
+    },
+    {
+        "QID": 4423,
+        "Token Len": 776
+    },
+    {
+        "QID": 4424,
+        "Token Len": 962
+    },
+    {
+        "QID": 4428,
+        "Token Len": 917
+    },
+    {
+        "QID": 4430,
+        "Token Len": 938
+    },
+    {
+        "QID": 4434,
+        "Token Len": 1066
+    },
+    {
+        "QID": 4436,
+        "Token Len": 1071
+    },
+    {
+        "QID": 4440,
+        "Token Len": 961
+    },
+    {
+        "QID": 4442,
+        "Token Len": 973
+    },
+    {
+        "QID": 4446,
+        "Token Len": 1031
+    },
+    {
+        "QID": 4448,
+        "Token Len": 656
+    },
+    {
+        "QID": 4453,
+        "Token Len": 846
+    },
+    {
+        "QID": 4456,
+        "Token Len": 1263
+    },
+    {
+        "QID": 4458,
+        "Token Len": 1043
+    },
+    {
+        "QID": 4459,
+        "Token Len": 1227
+    },
+    {
+        "QID": 4462,
+        "Token Len": 856
+    },
+    {
+        "QID": 4465,
+        "Token Len": 1054
+    },
+    {
+        "QID": 4466,
+        "Token Len": 1052
+    },
+    {
+        "QID": 4467,
+        "Token Len": 1055
+    },
+    {
+        "QID": 4472,
+        "Token Len": 1087
+    },
+    {
+        "QID": 4473,
+        "Token Len": 916
+    },
+    {
+        "QID": 4478,
+        "Token Len": 1453
+    },
+    {
+        "QID": 4482,
+        "Token Len": 1738
+    },
+    {
+        "QID": 4486,
+        "Token Len": 1320
+    },
+    {
+        "QID": 4489,
+        "Token Len": 1017
+    },
+    {
+        "QID": 4490,
+        "Token Len": 853
+    },
+    {
+        "QID": 4497,
+        "Token Len": 940
+    },
+    {
+        "QID": 4498,
+        "Token Len": 1328
+    },
+    {
+        "QID": 4504,
+        "Token Len": 921
+    },
+    {
+        "QID": 4506,
+        "Token Len": 876
+    },
+    {
+        "QID": 4509,
+        "Token Len": 1294
+    },
+    {
+        "QID": 4511,
+        "Token Len": 638
+    },
+    {
+        "QID": 4515,
+        "Token Len": 936
+    },
+    {
+        "QID": 4519,
+        "Token Len": 1117
+    },
+    {
+        "QID": 4527,
+        "Token Len": 642
+    },
+    {
+        "QID": 4529,
+        "Token Len": 898
+    },
+    {
+        "QID": 4534,
+        "Token Len": 732
+    },
+    {
+        "QID": 4536,
+        "Token Len": 1089
+    },
+    {
+        "QID": 4537,
+        "Token Len": 1450
+    },
+    {
+        "QID": 4538,
+        "Token Len": 997
+    },
+    {
+        "QID": 4545,
+        "Token Len": 1357
+    },
+    {
+        "QID": 4548,
+        "Token Len": 1248
+    },
+    {
+        "QID": 4549,
+        "Token Len": 883
+    },
+    {
+        "QID": 4561,
+        "Token Len": 738
+    },
+    {
+        "QID": 4569,
+        "Token Len": 1413
+    },
+    {
+        "QID": 4572,
+        "Token Len": 1169
+    },
+    {
+        "QID": 4573,
+        "Token Len": 859
+    },
+    {
+        "QID": 4580,
+        "Token Len": 726
+    },
+    {
+        "QID": 4581,
+        "Token Len": 1441
+    },
+    {
+        "QID": 4583,
+        "Token Len": 1251
+    },
+    {
+        "QID": 4585,
+        "Token Len": 867
+    },
+    {
+        "QID": 4588,
+        "Token Len": 1148
+    },
+    {
+        "QID": 4590,
+        "Token Len": 1039
+    },
+    {
+        "QID": 4594,
+        "Token Len": 911
+    },
+    {
+        "QID": 4597,
+        "Token Len": 1045
+    },
+    {
+        "QID": 4599,
+        "Token Len": 955
+    },
+    {
+        "QID": 4601,
+        "Token Len": 1283
+    },
+    {
+        "QID": 4602,
+        "Token Len": 1253
+    },
+    {
+        "QID": 4609,
+        "Token Len": 1570
+    },
+    {
+        "QID": 4610,
+        "Token Len": 1010
+    },
+    {
+        "QID": 4614,
+        "Token Len": 928
+    },
+    {
+        "QID": 4616,
+        "Token Len": 1109
+    },
+    {
+        "QID": 4617,
+        "Token Len": 1139
+    },
+    {
+        "QID": 4621,
+        "Token Len": 1155
+    },
+    {
+        "QID": 4625,
+        "Token Len": 956
+    },
+    {
+        "QID": 4626,
+        "Token Len": 630
+    },
+    {
+        "QID": 4628,
+        "Token Len": 1152
+    },
+    {
+        "QID": 4629,
+        "Token Len": 686
+    },
+    {
+        "QID": 4634,
+        "Token Len": 1072
+    },
+    {
+        "QID": 4637,
+        "Token Len": 667
+    },
+    {
+        "QID": 4639,
+        "Token Len": 1462
+    },
+    {
+        "QID": 4646,
+        "Token Len": 783
+    },
+    {
+        "QID": 4651,
+        "Token Len": 721
+    },
+    {
+        "QID": 4655,
+        "Token Len": 2868
+    },
+    {
+        "QID": 4661,
+        "Token Len": 967
+    },
+    {
+        "QID": 4662,
+        "Token Len": 2166
+    },
+    {
+        "QID": 4664,
+        "Token Len": 1252
+    },
+    {
+        "QID": 4665,
+        "Token Len": 787
+    },
+    {
+        "QID": 4666,
+        "Token Len": 818
+    },
+    {
+        "QID": 4670,
+        "Token Len": 1620
+    },
+    {
+        "QID": 4674,
+        "Token Len": 861
+    },
+    {
+        "QID": 4675,
+        "Token Len": 1238
+    },
+    {
+        "QID": 4680,
+        "Token Len": 1298
+    },
+    {
+        "QID": 4681,
+        "Token Len": 1315
+    },
+    {
+        "QID": 4686,
+        "Token Len": 1234
+    },
+    {
+        "QID": 4687,
+        "Token Len": 816
+    },
+    {
+        "QID": 4688,
+        "Token Len": 1062
+    },
+    {
+        "QID": 4689,
+        "Token Len": 1343
+    },
+    {
+        "QID": 4691,
+        "Token Len": 938
+    },
+    {
+        "QID": 4692,
+        "Token Len": 760
+    },
+    {
+        "QID": 4702,
+        "Token Len": 917
+    },
+    {
+        "QID": 4703,
+        "Token Len": 688
+    },
+    {
+        "QID": 4716,
+        "Token Len": 664
+    },
+    {
+        "QID": 4720,
+        "Token Len": 633
+    },
+    {
+        "QID": 4721,
+        "Token Len": 981
+    },
+    {
+        "QID": 4728,
+        "Token Len": 803
+    },
+    {
+        "QID": 4730,
+        "Token Len": 814
+    },
+    {
+        "QID": 4731,
+        "Token Len": 1216
+    },
+    {
+        "QID": 4735,
+        "Token Len": 827
+    },
+    {
+        "QID": 4741,
+        "Token Len": 923
+    },
+    {
+        "QID": 4742,
+        "Token Len": 812
+    },
+    {
+        "QID": 4744,
+        "Token Len": 1035
+    },
+    {
+        "QID": 4748,
+        "Token Len": 580
+    },
+    {
+        "QID": 4754,
+        "Token Len": 1316
+    },
+    {
+        "QID": 4756,
+        "Token Len": 992
+    },
+    {
+        "QID": 4758,
+        "Token Len": 1214
+    },
+    {
+        "QID": 4760,
+        "Token Len": 672
+    },
+    {
+        "QID": 4763,
+        "Token Len": 810
+    },
+    {
+        "QID": 4769,
+        "Token Len": 1389
+    },
+    {
+        "QID": 4772,
+        "Token Len": 1116
+    },
+    {
+        "QID": 4773,
+        "Token Len": 708
+    },
+    {
+        "QID": 4777,
+        "Token Len": 873
+    },
+    {
+        "QID": 4782,
+        "Token Len": 1105
+    },
+    {
+        "QID": 4784,
+        "Token Len": 947
+    },
+    {
+        "QID": 4785,
+        "Token Len": 1156
+    },
+    {
+        "QID": 4794,
+        "Token Len": 1293
+    },
+    {
+        "QID": 4797,
+        "Token Len": 1422
+    },
+    {
+        "QID": 4800,
+        "Token Len": 817
+    },
+    {
+        "QID": 4801,
+        "Token Len": 984
+    },
+    {
+        "QID": 4802,
+        "Token Len": 554
+    },
+    {
+        "QID": 4804,
+        "Token Len": 790
+    },
+    {
+        "QID": 4812,
+        "Token Len": 976
+    },
+    {
+        "QID": 4816,
+        "Token Len": 1172
+    },
+    {
+        "QID": 4817,
+        "Token Len": 1164
+    },
+    {
+        "QID": 4821,
+        "Token Len": 3297
+    },
+    {
+        "QID": 4822,
+        "Token Len": 1086
+    },
+    {
+        "QID": 4827,
+        "Token Len": 605
+    },
+    {
+        "QID": 4834,
+        "Token Len": 851
+    },
+    {
+        "QID": 4840,
+        "Token Len": 732
+    },
+    {
+        "QID": 4841,
+        "Token Len": 1012
+    },
+    {
+        "QID": 4842,
+        "Token Len": 1176
+    },
+    {
+        "QID": 4858,
+        "Token Len": 694
+    },
+    {
+        "QID": 4862,
+        "Token Len": 2451
+    },
+    {
+        "QID": 4864,
+        "Token Len": 1230
+    },
+    {
+        "QID": 4867,
+        "Token Len": 825
+    },
+    {
+        "QID": 4871,
+        "Token Len": 2247
+    },
+    {
+        "QID": 4872,
+        "Token Len": 1101
+    },
+    {
+        "QID": 4875,
+        "Token Len": 920
+    },
+    {
+        "QID": 4876,
+        "Token Len": 1212
+    },
+    {
+        "QID": 4878,
+        "Token Len": 1106
+    },
+    {
+        "QID": 4889,
+        "Token Len": 710
+    },
+    {
+        "QID": 4891,
+        "Token Len": 1154
+    },
+    {
+        "QID": 4895,
+        "Token Len": 810
+    },
+    {
+        "QID": 4901,
+        "Token Len": 756
+    },
+    {
+        "QID": 4909,
+        "Token Len": 1424
+    },
+    {
+        "QID": 4915,
+        "Token Len": 686
+    },
+    {
+        "QID": 4916,
+        "Token Len": 555
+    },
+    {
+        "QID": 4919,
+        "Token Len": 789
+    },
+    {
+        "QID": 4921,
+        "Token Len": 577
+    },
+    {
+        "QID": 4923,
+        "Token Len": 1325
+    },
+    {
+        "QID": 4926,
+        "Token Len": 1526
+    },
+    {
+        "QID": 4927,
+        "Token Len": 648
+    },
+    {
+        "QID": 4935,
+        "Token Len": 1153
+    },
+    {
+        "QID": 4937,
+        "Token Len": 805
+    },
+    {
+        "QID": 4941,
+        "Token Len": 1249
+    },
+    {
+        "QID": 4947,
+        "Token Len": 1359
+    },
+    {
+        "QID": 4951,
+        "Token Len": 698
+    },
+    {
+        "QID": 4952,
+        "Token Len": 916
+    },
+    {
+        "QID": 4953,
+        "Token Len": 951
+    },
+    {
+        "QID": 4954,
+        "Token Len": 935
+    },
+    {
+        "QID": 4955,
+        "Token Len": 752
+    },
+    {
+        "QID": 4960,
+        "Token Len": 2493
+    },
+    {
+        "QID": 4962,
+        "Token Len": 1018
+    },
+    {
+        "QID": 4966,
+        "Token Len": 739
+    },
+    {
+        "QID": 4967,
+        "Token Len": 931
+    },
+    {
+        "QID": 4969,
+        "Token Len": 1294
+    },
+    {
+        "QID": 4977,
+        "Token Len": 1198
+    },
+    {
+        "QID": 4979,
+        "Token Len": 673
+    },
+    {
+        "QID": 4981,
+        "Token Len": 1451
+    },
+    {
+        "QID": 4982,
+        "Token Len": 990
+    },
+    {
+        "QID": 4983,
+        "Token Len": 1398
+    },
+    {
+        "QID": 4985,
+        "Token Len": 1987
+    },
+    {
+        "QID": 4990,
+        "Token Len": 1736
+    },
+    {
+        "QID": 4991,
+        "Token Len": 1143
+    },
+    {
+        "QID": 4997,
+        "Token Len": 747
+    },
+    {
+        "QID": 5004,
+        "Token Len": 1243
+    },
+    {
+        "QID": 5005,
+        "Token Len": 876
+    },
+    {
+        "QID": 5007,
+        "Token Len": 1600
+    },
+    {
+        "QID": 5009,
+        "Token Len": 915
+    },
+    {
+        "QID": 5010,
+        "Token Len": 1021
+    },
+    {
+        "QID": 5014,
+        "Token Len": 735
+    },
+    {
+        "QID": 5020,
+        "Token Len": 693
+    },
+    {
+        "QID": 5021,
+        "Token Len": 761
+    },
+    {
+        "QID": 5026,
+        "Token Len": 814
+    },
+    {
+        "QID": 5033,
+        "Token Len": 820
+    },
+    {
+        "QID": 5037,
+        "Token Len": 1046
+    },
+    {
+        "QID": 5038,
+        "Token Len": 1470
+    },
+    {
+        "QID": 5039,
+        "Token Len": 678
+    },
+    {
+        "QID": 5051,
+        "Token Len": 1026
+    },
+    {
+        "QID": 5052,
+        "Token Len": 2198
+    },
+    {
+        "QID": 5055,
+        "Token Len": 1469
+    },
+    {
+        "QID": 5056,
+        "Token Len": 1245
+    },
+    {
+        "QID": 5058,
+        "Token Len": 1662
+    },
+    {
+        "QID": 5059,
+        "Token Len": 1041
+    },
+    {
+        "QID": 5078,
+        "Token Len": 856
+    },
+    {
+        "QID": 5090,
+        "Token Len": 672
+    },
+    {
+        "QID": 5108,
+        "Token Len": 1236
+    },
+    {
+        "QID": 5109,
+        "Token Len": 744
+    },
+    {
+        "QID": 5111,
+        "Token Len": 827
+    },
+    {
+        "QID": 5115,
+        "Token Len": 1173
+    },
+    {
+        "QID": 5119,
+        "Token Len": 855
+    },
+    {
+        "QID": 5130,
+        "Token Len": 1069
+    },
+    {
+        "QID": 5133,
+        "Token Len": 1597
+    },
+    {
+        "QID": 5140,
+        "Token Len": 908
+    },
+    {
+        "QID": 5141,
+        "Token Len": 1127
+    },
+    {
+        "QID": 5154,
+        "Token Len": 1269
+    },
+    {
+        "QID": 5156,
+        "Token Len": 955
+    },
+    {
+        "QID": 5160,
+        "Token Len": 704
+    },
+    {
+        "QID": 5169,
+        "Token Len": 1944
+    },
+    {
+        "QID": 5174,
+        "Token Len": 1001
+    },
+    {
+        "QID": 5181,
+        "Token Len": 1280
+    },
+    {
+        "QID": 5182,
+        "Token Len": 1091
+    },
+    {
+        "QID": 5187,
+        "Token Len": 977
+    },
+    {
+        "QID": 5188,
+        "Token Len": 1325
+    },
+    {
+        "QID": 5191,
+        "Token Len": 899
+    },
+    {
+        "QID": 5193,
+        "Token Len": 760
+    },
+    {
+        "QID": 5196,
+        "Token Len": 920
+    },
+    {
+        "QID": 5197,
+        "Token Len": 1139
+    },
+    {
+        "QID": 5206,
+        "Token Len": 1369
+    },
+    {
+        "QID": 5211,
+        "Token Len": 969
+    },
+    {
+        "QID": 5212,
+        "Token Len": 824
+    },
+    {
+        "QID": 5222,
+        "Token Len": 830
+    },
+    {
+        "QID": 5230,
+        "Token Len": 1364
+    },
+    {
+        "QID": 5232,
+        "Token Len": 1030
+    },
+    {
+        "QID": 5236,
+        "Token Len": 922
+    },
+    {
+        "QID": 5243,
+        "Token Len": 1032
+    },
+    {
+        "QID": 5249,
+        "Token Len": 1209
+    },
+    {
+        "QID": 5250,
+        "Token Len": 953
+    },
+    {
+        "QID": 5258,
+        "Token Len": 1683
+    },
+    {
+        "QID": 5263,
+        "Token Len": 533
+    },
+    {
+        "QID": 5270,
+        "Token Len": 1140
+    },
+    {
+        "QID": 5273,
+        "Token Len": 832
+    },
+    {
+        "QID": 5275,
+        "Token Len": 863
+    },
+    {
+        "QID": 5288,
+        "Token Len": 847
+    },
+    {
+        "QID": 5289,
+        "Token Len": 1017
+    },
+    {
+        "QID": 5295,
+        "Token Len": 1278
+    },
+    {
+        "QID": 5297,
+        "Token Len": 955
+    },
+    {
+        "QID": 5299,
+        "Token Len": 694
+    },
+    {
+        "QID": 5301,
+        "Token Len": 1231
+    },
+    {
+        "QID": 5303,
+        "Token Len": 1209
+    },
+    {
+        "QID": 5310,
+        "Token Len": 1258
+    },
+    {
+        "QID": 5325,
+        "Token Len": 1850
+    },
+    {
+        "QID": 5331,
+        "Token Len": 792
+    },
+    {
+        "QID": 5333,
+        "Token Len": 1120
+    },
+    {
+        "QID": 5344,
+        "Token Len": 1115
+    },
+    {
+        "QID": 5345,
+        "Token Len": 1734
+    },
+    {
+        "QID": 5348,
+        "Token Len": 1111
+    },
+    {
+        "QID": 5349,
+        "Token Len": 786
+    },
+    {
+        "QID": 5356,
+        "Token Len": 933
+    },
+    {
+        "QID": 5357,
+        "Token Len": 1010
+    },
+    {
+        "QID": 5359,
+        "Token Len": 1782
+    },
+    {
+        "QID": 5363,
+        "Token Len": 1748
+    },
+    {
+        "QID": 5367,
+        "Token Len": 686
+    },
+    {
+        "QID": 5371,
+        "Token Len": 1090
+    },
+    {
+        "QID": 5374,
+        "Token Len": 1277
+    },
+    {
+        "QID": 5380,
+        "Token Len": 906
+    },
+    {
+        "QID": 5394,
+        "Token Len": 1002
+    },
+    {
+        "QID": 5403,
+        "Token Len": 815
+    },
+    {
+        "QID": 5410,
+        "Token Len": 1305
+    },
+    {
+        "QID": 5418,
+        "Token Len": 1130
+    },
+    {
+        "QID": 5431,
+        "Token Len": 1387
+    },
+    {
+        "QID": 5432,
+        "Token Len": 1012
+    },
+    {
+        "QID": 5439,
+        "Token Len": 790
+    },
+    {
+        "QID": 5441,
+        "Token Len": 1422
+    },
+    {
+        "QID": 5444,
+        "Token Len": 1980
+    },
+    {
+        "QID": 5445,
+        "Token Len": 929
+    },
+    {
+        "QID": 5449,
+        "Token Len": 1835
+    },
+    {
+        "QID": 5450,
+        "Token Len": 1329
+    },
+    {
+        "QID": 5456,
+        "Token Len": 633
+    },
+    {
+        "QID": 5463,
+        "Token Len": 1178
+    },
+    {
+        "QID": 5466,
+        "Token Len": 881
+    },
+    {
+        "QID": 5469,
+        "Token Len": 839
+    },
+    {
+        "QID": 5471,
+        "Token Len": 1068
+    },
+    {
+        "QID": 5475,
+        "Token Len": 861
+    },
+    {
+        "QID": 5487,
+        "Token Len": 998
+    },
+    {
+        "QID": 5489,
+        "Token Len": 1111
+    },
+    {
+        "QID": 5495,
+        "Token Len": 831
+    },
+    {
+        "QID": 5506,
+        "Token Len": 802
+    },
+    {
+        "QID": 5507,
+        "Token Len": 733
+    },
+    {
+        "QID": 5508,
+        "Token Len": 1367
+    },
+    {
+        "QID": 5511,
+        "Token Len": 1071
+    },
+    {
+        "QID": 5512,
+        "Token Len": 2680
+    },
+    {
+        "QID": 5518,
+        "Token Len": 977
+    },
+    {
+        "QID": 5520,
+        "Token Len": 1598
+    },
+    {
+        "QID": 5523,
+        "Token Len": 1048
+    },
+    {
+        "QID": 5534,
+        "Token Len": 951
+    },
+    {
+        "QID": 5536,
+        "Token Len": 807
+    },
+    {
+        "QID": 5550,
+        "Token Len": 1044
+    },
+    {
+        "QID": 5551,
+        "Token Len": 1558
+    },
+    {
+        "QID": 5553,
+        "Token Len": 866
+    },
+    {
+        "QID": 5558,
+        "Token Len": 1090
+    },
+    {
+        "QID": 5559,
+        "Token Len": 805
+    },
+    {
+        "QID": 5561,
+        "Token Len": 845
+    },
+    {
+        "QID": 5570,
+        "Token Len": 1364
+    },
+    {
+        "QID": 5571,
+        "Token Len": 977
+    },
+    {
+        "QID": 5575,
+        "Token Len": 614
+    },
+    {
+        "QID": 5577,
+        "Token Len": 838
+    },
+    {
+        "QID": 5578,
+        "Token Len": 1034
+    },
+    {
+        "QID": 5579,
+        "Token Len": 748
+    },
+    {
+        "QID": 5580,
+        "Token Len": 2039
+    },
+    {
+        "QID": 5581,
+        "Token Len": 1422
+    },
+    {
+        "QID": 5583,
+        "Token Len": 1080
+    },
+    {
+        "QID": 5586,
+        "Token Len": 1283
+    },
+    {
+        "QID": 5590,
+        "Token Len": 1463
+    },
+    {
+        "QID": 5601,
+        "Token Len": 692
+    },
+    {
+        "QID": 5602,
+        "Token Len": 1731
+    },
+    {
+        "QID": 5607,
+        "Token Len": 1224
+    },
+    {
+        "QID": 5610,
+        "Token Len": 1511
+    },
+    {
+        "QID": 5613,
+        "Token Len": 1055
+    },
+    {
+        "QID": 5619,
+        "Token Len": 824
+    },
+    {
+        "QID": 5620,
+        "Token Len": 1321
+    },
+    {
+        "QID": 5626,
+        "Token Len": 827
+    },
+    {
+        "QID": 5637,
+        "Token Len": 1083
+    },
+    {
+        "QID": 5638,
+        "Token Len": 916
+    },
+    {
+        "QID": 5640,
+        "Token Len": 904
+    },
+    {
+        "QID": 5645,
+        "Token Len": 1127
+    },
+    {
+        "QID": 5651,
+        "Token Len": 457
+    },
+    {
+        "QID": 5655,
+        "Token Len": 541
+    },
+    {
+        "QID": 5659,
+        "Token Len": 828
+    },
+    {
+        "QID": 5661,
+        "Token Len": 1107
+    },
+    {
+        "QID": 5665,
+        "Token Len": 788
+    },
+    {
+        "QID": 5666,
+        "Token Len": 1260
+    },
+    {
+        "QID": 5668,
+        "Token Len": 1124
+    },
+    {
+        "QID": 5674,
+        "Token Len": 1154
+    },
+    {
+        "QID": 5690,
+        "Token Len": 772
+    },
+    {
+        "QID": 5693,
+        "Token Len": 1183
+    },
+    {
+        "QID": 5698,
+        "Token Len": 1385
+    },
+    {
+        "QID": 5700,
+        "Token Len": 722
+    },
+    {
+        "QID": 5701,
+        "Token Len": 1085
+    },
+    {
+        "QID": 5703,
+        "Token Len": 855
+    },
+    {
+        "QID": 5704,
+        "Token Len": 831
+    },
+    {
+        "QID": 5707,
+        "Token Len": 727
+    },
+    {
+        "QID": 5715,
+        "Token Len": 586
+    },
+    {
+        "QID": 5718,
+        "Token Len": 1160
+    },
+    {
+        "QID": 5719,
+        "Token Len": 1342
+    },
+    {
+        "QID": 5722,
+        "Token Len": 954
+    },
+    {
+        "QID": 5723,
+        "Token Len": 781
+    },
+    {
+        "QID": 5724,
+        "Token Len": 1233
+    },
+    {
+        "QID": 5727,
+        "Token Len": 1673
+    },
+    {
+        "QID": 5728,
+        "Token Len": 774
+    },
+    {
+        "QID": 5729,
+        "Token Len": 927
+    },
+    {
+        "QID": 5730,
+        "Token Len": 840
+    },
+    {
+        "QID": 5733,
+        "Token Len": 1096
+    },
+    {
+        "QID": 5736,
+        "Token Len": 1506
+    },
+    {
+        "QID": 5738,
+        "Token Len": 809
+    },
+    {
+        "QID": 5751,
+        "Token Len": 1787
+    },
+    {
+        "QID": 5752,
+        "Token Len": 894
+    },
+    {
+        "QID": 5760,
+        "Token Len": 1190
+    },
+    {
+        "QID": 5763,
+        "Token Len": 706
+    },
+    {
+        "QID": 5765,
+        "Token Len": 779
+    },
+    {
+        "QID": 5769,
+        "Token Len": 928
+    },
+    {
+        "QID": 5781,
+        "Token Len": 1108
+    },
+    {
+        "QID": 5786,
+        "Token Len": 1149
+    },
+    {
+        "QID": 5788,
+        "Token Len": 1012
+    },
+    {
+        "QID": 5790,
+        "Token Len": 1227
+    },
+    {
+        "QID": 5791,
+        "Token Len": 1137
+    },
+    {
+        "QID": 5794,
+        "Token Len": 641
+    },
+    {
+        "QID": 5795,
+        "Token Len": 1477
+    },
+    {
+        "QID": 5797,
+        "Token Len": 913
+    },
+    {
+        "QID": 5798,
+        "Token Len": 860
+    },
+    {
+        "QID": 5805,
+        "Token Len": 994
+    },
+    {
+        "QID": 5808,
+        "Token Len": 970
+    },
+    {
+        "QID": 5811,
+        "Token Len": 896
+    },
+    {
+        "QID": 5816,
+        "Token Len": 1114
+    },
+    {
+        "QID": 5823,
+        "Token Len": 1226
+    },
+    {
+        "QID": 5825,
+        "Token Len": 890
+    },
+    {
+        "QID": 5827,
+        "Token Len": 892
+    },
+    {
+        "QID": 5830,
+        "Token Len": 1277
+    },
+    {
+        "QID": 5836,
+        "Token Len": 1007
+    },
+    {
+        "QID": 5839,
+        "Token Len": 931
+    },
+    {
+        "QID": 5843,
+        "Token Len": 752
+    },
+    {
+        "QID": 5846,
+        "Token Len": 1116
+    },
+    {
+        "QID": 5850,
+        "Token Len": 1424
+    },
+    {
+        "QID": 5851,
+        "Token Len": 978
+    },
+    {
+        "QID": 5853,
+        "Token Len": 872
+    },
+    {
+        "QID": 5857,
+        "Token Len": 963
+    },
+    {
+        "QID": 5870,
+        "Token Len": 828
+    },
+    {
+        "QID": 5871,
+        "Token Len": 1259
+    },
+    {
+        "QID": 5874,
+        "Token Len": 1285
+    },
+    {
+        "QID": 5875,
+        "Token Len": 881
+    },
+    {
+        "QID": 5878,
+        "Token Len": 583
+    },
+    {
+        "QID": 5881,
+        "Token Len": 1040
+    },
+    {
+        "QID": 5883,
+        "Token Len": 917
+    },
+    {
+        "QID": 5888,
+        "Token Len": 891
+    },
+    {
+        "QID": 5892,
+        "Token Len": 979
+    },
+    {
+        "QID": 5893,
+        "Token Len": 1240
+    },
+    {
+        "QID": 5894,
+        "Token Len": 1434
+    },
+    {
+        "QID": 5895,
+        "Token Len": 955
+    },
+    {
+        "QID": 5913,
+        "Token Len": 989
+    },
+    {
+        "QID": 5915,
+        "Token Len": 839
+    },
+    {
+        "QID": 5919,
+        "Token Len": 950
+    },
+    {
+        "QID": 5924,
+        "Token Len": 754
+    },
+    {
+        "QID": 5925,
+        "Token Len": 775
+    },
+    {
+        "QID": 5926,
+        "Token Len": 967
+    },
+    {
+        "QID": 5927,
+        "Token Len": 1230
+    },
+    {
+        "QID": 5928,
+        "Token Len": 1790
+    },
+    {
+        "QID": 5934,
+        "Token Len": 2183
+    },
+    {
+        "QID": 5936,
+        "Token Len": 550
+    },
+    {
+        "QID": 5940,
+        "Token Len": 725
+    },
+    {
+        "QID": 5942,
+        "Token Len": 1120
+    },
+    {
+        "QID": 5943,
+        "Token Len": 1259
+    },
+    {
+        "QID": 5944,
+        "Token Len": 1164
+    },
+    {
+        "QID": 5947,
+        "Token Len": 592
+    },
+    {
+        "QID": 5948,
+        "Token Len": 1468
+    },
+    {
+        "QID": 5950,
+        "Token Len": 1056
+    },
+    {
+        "QID": 5952,
+        "Token Len": 1016
+    },
+    {
+        "QID": 5954,
+        "Token Len": 995
+    },
+    {
+        "QID": 5960,
+        "Token Len": 1231
+    },
+    {
+        "QID": 5961,
+        "Token Len": 941
+    },
+    {
+        "QID": 5966,
+        "Token Len": 667
+    },
+    {
+        "QID": 5970,
+        "Token Len": 1139
+    },
+    {
+        "QID": 5972,
+        "Token Len": 1014
+    },
+    {
+        "QID": 5973,
+        "Token Len": 1013
+    },
+    {
+        "QID": 5985,
+        "Token Len": 803
+    },
+    {
+        "QID": 5987,
+        "Token Len": 739
+    },
+    {
+        "QID": 5988,
+        "Token Len": 865
+    },
+    {
+        "QID": 5989,
+        "Token Len": 907
+    },
+    {
+        "QID": 5990,
+        "Token Len": 1151
+    },
+    {
+        "QID": 6001,
+        "Token Len": 805
+    },
+    {
+        "QID": 6006,
+        "Token Len": 1007
+    },
+    {
+        "QID": 6007,
+        "Token Len": 677
+    },
+    {
+        "QID": 6013,
+        "Token Len": 1063
+    },
+    {
+        "QID": 6014,
+        "Token Len": 988
+    },
+    {
+        "QID": 6022,
+        "Token Len": 674
+    },
+    {
+        "QID": 6023,
+        "Token Len": 1263
+    },
+    {
+        "QID": 6024,
+        "Token Len": 1180
+    },
+    {
+        "QID": 6025,
+        "Token Len": 837
+    },
+    {
+        "QID": 6032,
+        "Token Len": 1287
+    },
+    {
+        "QID": 6037,
+        "Token Len": 1195
+    },
+    {
+        "QID": 6041,
+        "Token Len": 711
+    },
+    {
+        "QID": 6043,
+        "Token Len": 1213
+    },
+    {
+        "QID": 6044,
+        "Token Len": 1267
+    },
+    {
+        "QID": 6046,
+        "Token Len": 712
+    },
+    {
+        "QID": 6047,
+        "Token Len": 776
+    },
+    {
+        "QID": 6053,
+        "Token Len": 1486
+    },
+    {
+        "QID": 6057,
+        "Token Len": 942
+    },
+    {
+        "QID": 6064,
+        "Token Len": 1045
+    },
+    {
+        "QID": 6067,
+        "Token Len": 1281
+    },
+    {
+        "QID": 6070,
+        "Token Len": 994
+    },
+    {
+        "QID": 6074,
+        "Token Len": 1282
+    },
+    {
+        "QID": 6076,
+        "Token Len": 548
+    },
+    {
+        "QID": 6081,
+        "Token Len": 816
+    },
+    {
+        "QID": 6083,
+        "Token Len": 1970
+    },
+    {
+        "QID": 6089,
+        "Token Len": 864
+    },
+    {
+        "QID": 6092,
+        "Token Len": 912
+    },
+    {
+        "QID": 6098,
+        "Token Len": 881
+    },
+    {
+        "QID": 6099,
+        "Token Len": 1052
+    },
+    {
+        "QID": 6102,
+        "Token Len": 806
+    },
+    {
+        "QID": 6107,
+        "Token Len": 952
+    },
+    {
+        "QID": 6110,
+        "Token Len": 987
+    },
+    {
+        "QID": 6113,
+        "Token Len": 650
+    },
+    {
+        "QID": 6115,
+        "Token Len": 1103
+    },
+    {
+        "QID": 6116,
+        "Token Len": 1502
+    },
+    {
+        "QID": 6117,
+        "Token Len": 1439
+    },
+    {
+        "QID": 6119,
+        "Token Len": 633
+    },
+    {
+        "QID": 6120,
+        "Token Len": 1057
+    },
+    {
+        "QID": 6133,
+        "Token Len": 882
+    },
+    {
+        "QID": 6134,
+        "Token Len": 671
+    },
+    {
+        "QID": 6142,
+        "Token Len": 704
+    },
+    {
+        "QID": 6147,
+        "Token Len": 1205
+    },
+    {
+        "QID": 6158,
+        "Token Len": 905
+    },
+    {
+        "QID": 6164,
+        "Token Len": 1385
+    },
+    {
+        "QID": 6166,
+        "Token Len": 932
+    },
+    {
+        "QID": 6171,
+        "Token Len": 1527
+    },
+    {
+        "QID": 6173,
+        "Token Len": 914
+    },
+    {
+        "QID": 6182,
+        "Token Len": 727
+    },
+    {
+        "QID": 6184,
+        "Token Len": 934
+    },
+    {
+        "QID": 6186,
+        "Token Len": 1085
+    },
+    {
+        "QID": 6190,
+        "Token Len": 1072
+    },
+    {
+        "QID": 6191,
+        "Token Len": 901
+    },
+    {
+        "QID": 6195,
+        "Token Len": 650
+    },
+    {
+        "QID": 6201,
+        "Token Len": 1289
+    },
+    {
+        "QID": 6203,
+        "Token Len": 1670
+    },
+    {
+        "QID": 6206,
+        "Token Len": 618
+    },
+    {
+        "QID": 6211,
+        "Token Len": 828
+    },
+    {
+        "QID": 6212,
+        "Token Len": 737
+    },
+    {
+        "QID": 6215,
+        "Token Len": 1150
+    },
+    {
+        "QID": 6216,
+        "Token Len": 1316
+    },
+    {
+        "QID": 6221,
+        "Token Len": 1162
+    },
+    {
+        "QID": 6225,
+        "Token Len": 1345
+    },
+    {
+        "QID": 6228,
+        "Token Len": 599
+    },
+    {
+        "QID": 6230,
+        "Token Len": 974
+    },
+    {
+        "QID": 6233,
+        "Token Len": 950
+    },
+    {
+        "QID": 6235,
+        "Token Len": 904
+    },
+    {
+        "QID": 6236,
+        "Token Len": 964
+    },
+    {
+        "QID": 6247,
+        "Token Len": 1053
+    },
+    {
+        "QID": 6250,
+        "Token Len": 1012
+    },
+    {
+        "QID": 6256,
+        "Token Len": 1240
+    },
+    {
+        "QID": 6268,
+        "Token Len": 1557
+    },
+    {
+        "QID": 6272,
+        "Token Len": 862
+    },
+    {
+        "QID": 6274,
+        "Token Len": 995
+    },
+    {
+        "QID": 6277,
+        "Token Len": 911
+    },
+    {
+        "QID": 6281,
+        "Token Len": 981
+    },
+    {
+        "QID": 6284,
+        "Token Len": 1045
+    },
+    {
+        "QID": 6286,
+        "Token Len": 703
+    },
+    {
+        "QID": 6288,
+        "Token Len": 1130
+    },
+    {
+        "QID": 6291,
+        "Token Len": 533
+    },
+    {
+        "QID": 6303,
+        "Token Len": 1038
+    },
+    {
+        "QID": 6305,
+        "Token Len": 1820
+    },
+    {
+        "QID": 6314,
+        "Token Len": 572
+    },
+    {
+        "QID": 6315,
+        "Token Len": 1384
+    },
+    {
+        "QID": 6316,
+        "Token Len": 936
+    },
+    {
+        "QID": 6331,
+        "Token Len": 2064
+    },
+    {
+        "QID": 6335,
+        "Token Len": 620
+    },
+    {
+        "QID": 6336,
+        "Token Len": 1295
+    },
+    {
+        "QID": 6337,
+        "Token Len": 1277
+    },
+    {
+        "QID": 6338,
+        "Token Len": 1103
+    },
+    {
+        "QID": 6346,
+        "Token Len": 1444
+    }
+]

@@ -1,0 +1,1 @@
+nohup python -u docs_len_calculate.py >logs/docs_len_calculate.log 2>&1 &
