@@ -3,8 +3,8 @@ import random
 random.seed(42)
 
 # 文件路径
-file_1 = "/data1/wangyan/BaselineFramework/ExperimentResult/evaluation_result/main_different_noise-ration/VanillaRAG/main_noise-ration-07_VanillaRAG_Llama-3-1-8B.json"
-file_2 = "/data1/wangyan/BaselineFramework/ExperimentResult/evaluation_result/main_different_noise-ration/VanillaRAG/main_noise-ration-07_VanillaRAG_Qwen2-5-7B.json"
+file_1 = "/data1/wangyan/BaselineFramework/ExperimentResult/evaluation_result/main_different_noise-ratio/VanillaRAG/main_noise-ratio-07_VanillaRAG_Llama-3-1-8B.json"
+file_2 = "/data1/wangyan/BaselineFramework/ExperimentResult/evaluation_result/main_different_noise-ratio/VanillaRAG/main_noise-ratio-07_VanillaRAG_Qwen2-5-7B.json"
 
 # 打开第一个文件并提取符合条件的 QID
 with open(file_1, "r") as file:

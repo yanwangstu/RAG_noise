@@ -9,15 +9,15 @@
 
 
 # 定义变量
-model_name="R1-distill-llama-8b-hjh"
+model_name="R1-distill-llama-70b-hjh"
 framework_name="SKR"
 experiment_name="main"
-variable_name="noise-ration"
-variable="01"
+variable_name="noise-ratio"
+variable="07"
 use_api="True"
 rpm_limit=40
 device="None"
-last_write_qid=3382
+last_write_qid=6089
 
 # 构建日志文件名
 log_file="logs/${experiment_name}_${variable_name}-${variable}-${variable}_${framework_name}_${model_name}.log"
@@ -36,3 +36,58 @@ nohup python -u main_resume_breakpoint.py \
 
 
 
+
+# 定义变量
+model_name="R1-distill-llama-70b-zyx"
+framework_name="SKR"
+experiment_name="main"
+variable_name="noise-ratio"
+variable="09"
+use_api="True"
+rpm_limit=40
+device="None"
+last_write_qid=6022
+
+# 构建日志文件名
+log_file="logs/${experiment_name}_${variable_name}-${variable}-${variable}_${framework_name}_${model_name}.log"
+
+# 运行脚本并重定向输出
+nohup python -u main_resume_breakpoint.py \
+    --experiment_name "$experiment_name" \
+    --variable_name "$variable_name" \
+    --framework_name "$framework_name" \
+    --model_name "$model_name" \
+    --use_api "$use_api" \
+    --variable "$variable" \
+    --last_write_qid $last_write_qid \
+    --device "$device" \
+> "$log_file" 2>&1 &
+
+
+
+
+# 定义变量
+model_name="R1-distill-llama-70b-wy"
+framework_name="SKR"
+experiment_name="main"
+variable_name="noise-ratio"
+variable="10"
+use_api="True"
+rpm_limit=40
+device="None"
+last_write_qid=6022
+
+# 构建日志文件名
+log_file="logs/${experiment_name}_${variable_name}-${variable}-${variable}_${framework_name}_${model_name}.log"
+
+# 运行脚本并重定向输出
+nohup python -u main_resume_breakpoint.py \
+    --experiment_name "$experiment_name" \
+    --variable_name "$variable_name" \
+    --framework_name "$framework_name" \
+    --model_name "$model_name" \
+    --use_api "$use_api" \
+    --variable "$variable" \
+    --last_write_qid $last_write_qid \
+    --device "$device" \
+> "$log_file" 2>&1 &

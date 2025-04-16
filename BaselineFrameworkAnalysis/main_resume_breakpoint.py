@@ -61,11 +61,12 @@ def experiment_resume_breakpoint(framework: str,
     for input_sample in input_samples:
         if input_sample["QID"] > last_write_QID:
             if input_sample["QID"] in already_processed_QID:
-                # already response successfully samples
+                # ifresponse failed, then retry
                 if "Response Failed: Error code: 429" not in already_processed_answer[input_sample["QID"]]:
                     pbar.update(1)
                     continue
                 else:
+                    # delete the previous response result
                     result = [item for item in result if item.get("QID") != input_sample["QID"]]
 
             # prepare the question and docs
@@ -134,6 +135,7 @@ if __name__ == "__main__":
     parse_model_name = model_name.replace(".", "-")
     parse_model_name = parse_model_name.strip("-zyx")
     parse_model_name = parse_model_name.strip("-hjh")
+    parse_model_name = parse_model_name.strip("-wy")
 
     testbed_path = f"testbed/{experiment_name}_different_{variable_name}/{experiment_name}_{variable_name}-{variable}.json"
     result_record_path = f"ExperimentResult/model_output/{experiment_name}_different_{variable_name}/{framework_name}/{experiment_name}_{variable_name}-{variable}_{framework_name}_{parse_model_name}.json"

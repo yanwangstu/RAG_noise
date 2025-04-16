@@ -231,7 +231,7 @@ async def evaluation(framework: str,
     # load llm_answers
     with open(llm_answers_path, 'r', encoding='utf-8') as file:
         temp_llm_answers = json.load(file)
-    temp_llm_answers = {item['QID']: item["Output Answer"]
+    temp_llm_answers = {item['QID']: item["Preds"]
                         for item in temp_llm_answers}
 
     # keep llm_answers and correct_answers in the same length
@@ -330,10 +330,9 @@ if __name__ == "__main__":
 
     for variable in variables:
         # set hyperparameters
-        parse_model_name = model_name.replace(".", "-")
-        llm_answers_path = f"ExperimentResult/model_output/{experiment_name}_different_{variable_name}/{framework_name}/pred_{experiment_name}_n_{variable}_10_{model_name}.json"
-        correct_answers_path = f"testbed/{experiment_name}_different_{variable_name}/main_{variable_name}-{variable}.json"
-        evaluator_write_path = f"ExperimentResult/evaluation_result/{experiment_name}_different_{variable_name}/{framework_name}/{experiment_name}_{variable_name}-{variable}_{framework_name}_{parse_model_name}.json"
+        llm_answers_path = f"ExperimentResult/model_output/{experiment_name}_different_{variable_name}/{framework_name}/pred_{variable}_{model_name}.json"
+        correct_answers_path = f"testbed/{experiment_name}_different_{variable_name}/{experiment_name}_{variable_name}-{variable}.json"
+        evaluator_write_path = f"ExperimentResult/evaluation_result/{experiment_name}_different_{variable_name}/{framework_name}/{experiment_name}_{variable_name}-{variable}_{framework_name}_{model_name}.json"
 
         pid = os.getpid()
 

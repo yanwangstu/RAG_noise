@@ -192,7 +192,8 @@ class Generator:
 
             # transfer output_token_id_tensor into output_text
             output_text = self.tokenizer.decode(
-                outputs_ids, skip_special_tokens=True,
+                outputs_ids, 
+                skip_special_tokens=True,
                 clean_up_tokenization_spaces=True
             )
 
@@ -224,7 +225,7 @@ if __name__ == "__main__":
             ]
 
     # load "Llama-3.1-8B" or "Qwen2.5-7B"
-    Gen = Generator("Qwen2.5-7B", "cuda:0")
+    Gen = Generator("Llama-3.1-8B", "cuda:0")
 
     # Basic RAG message generate
     messages  = Gen.message_generate_baseRAG(question, docs)

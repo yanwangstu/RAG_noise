@@ -1,7 +1,7 @@
 import os
 import json
 
-filter_QID_path = "/data1/wangyan/Filter/intersection_result.json"
+filter_QID_path = "/data1/wangyan/SamplesFilter&Revaluation/filtered_QID.json"
 with open(filter_QID_path, 'r', encoding='utf-8') as file:
     filter_QID = json.load(file)
 
@@ -63,6 +63,8 @@ def traverse_and_process(src_dir, dst_dir):
     for root, dirs, files in os.walk(src_dir):
         # 计算相对路径，用于在目标目录中创建相同的目录结构
         relative_path = os.path.relpath(root, src_dir)
+        if relative_path == '.':
+            relative_path = ''
         target_path = os.path.join(dst_dir, relative_path)
 
         # 创建目标目录结构
@@ -76,6 +78,7 @@ def traverse_and_process(src_dir, dst_dir):
 
             src_file_path = os.path.join(root, file_name)
             dst_file_path = os.path.join(target_path, file_name)
+            print(target_path)
 
           
             processed_data = filter_acc_rej_recalculate(src_file_path)
@@ -83,13 +86,17 @@ def traverse_and_process(src_dir, dst_dir):
             # 将处理后的 JSON 数据写入目标文件
             with open(dst_file_path, 'w', encoding='utf-8') as dst_file:
                 json.dump(processed_data, dst_file, ensure_ascii=False, indent=4)
+                if "CRAG" in dst_file_path:
+                    print(processed_data)
+                    print(dst_file_path)
                 print(f"已处理并保存: {dst_file_path}")
 
 
 # 示例用法
 if __name__ == "__main__":
-    evaluation_result_dic = "/data1/wangyan/BaselineFramework/ExperimentResult/evaluation_result/"
-    filter_result_dic = "/data1/wangyan/Filter/evaluation_result_filter"
+    evaluation_result_dic = "/data1/wangyan/BaselineFrameworkAnalysis/ExperimentResult/evaluation_result"
+    filter_result_dic = "/data1/wangyan/SamplesFilter&Revaluation/evaluation_result_filter"
     
     traverse_and_process(src_dir=evaluation_result_dic, 
                          dst_dir=filter_result_dic)
+    

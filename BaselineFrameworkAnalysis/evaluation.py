@@ -337,6 +337,10 @@ if __name__ == "__main__":
         correct_answers_path = f"testbed/{experiment_name}_different_{variable_name}/{experiment_name}_{variable_name}-{variable}.json"
         evaluator_write_path = f"ExperimentResult/evaluation_result/{experiment_name}_different_{variable_name}/{framework_name}/{experiment_name}_{variable_name}-{variable}_{framework_name}_{parse_model_name}.json"
 
+        # 确保目标目录存在
+        evaluator_write_dir = f"ExperimentResult/evaluation_result/{experiment_name}_different_{variable_name}/{framework_name}"
+        os.makedirs(evaluator_write_dir, exist_ok=True)
+
         pid = os.getpid()
 
         now = datetime.now()

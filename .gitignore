@@ -11,6 +11,8 @@
 /BaselineFrameworkAnalysis/ExperimentResult/
 /BaselineFrameworkAnalysis/testbed/
 /Backup/
+/ModelFinetuning/dataset/dataset_cache/
+/ModelFinetuning/dataset/origin_dataset/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

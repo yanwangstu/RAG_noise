@@ -24,7 +24,7 @@ parser = argparse.ArgumentParser()
 # add hyperparameter
 parser.add_argument("--experiment_name", type=str, required=True)
 parser.add_argument("--variable_name", type=str, required=True)
-parser.add_argument("--framework_name", type=str, required=True)
+parser.add_argument("--framework_names", nargs="+", required=True)
 parser.add_argument("--model_name", type=str, required=True)
 parser.add_argument("--use_api", type=str, required=True)
 parser.add_argument("--rpm_limit", type=int, required=True)
@@ -35,7 +35,7 @@ args = parser.parse_args()
 experiment_name = args.experiment_name
 variable_name = args.variable_name
 variables = args.variables
-framework_name = args.framework_name
+framework_names = args.framework_names
 model_name = args.model_name
 if args.use_api == "True":
     useAPI = True
@@ -210,7 +210,7 @@ if __name__ == "__main__":
     print("Experiment Name", experiment_name)
     print("Variable Name", variable_name)
     print("Variable List", variables)
-    print("Framework Name: ", framework_name)
+    print("Framework Name: ", framework_names)
     print("Model Name: ", model_name)
     print("useAPI: ", useAPI)
     print("GPU Device: ", device)
@@ -223,48 +223,50 @@ if __name__ == "__main__":
     parse_model_name = parse_model_name.strip("-zyx")
     parse_model_name = parse_model_name.strip("-hjh")
     parse_model_name = parse_model_name.strip("-wy")
-    for variable in variables:
+    
+    for framework_name in framework_names:
+        for variable in variables:
 
-        testbed_path = f"testbed/{experiment_name}_different_{variable_name}/{experiment_name}_{variable_name}-{variable}.json"
-        result_record_path = f"ExperimentResult/model_output/{experiment_name}_different_{variable_name}/{framework_name}/{experiment_name}_{variable_name}-{variable}_{framework_name}_{parse_model_name}.json"
-        
-        
-        now = datetime.now()
-        formatted_start_time = now.strftime("%Y-%m-%d %H:%M:%S")
-        start_time = time.time()
-        pid = os.getpid()
+            testbed_path = f"testbed/{experiment_name}_different_{variable_name}/{experiment_name}_{variable_name}-{variable}.json"
+            result_record_path = f"ExperimentResult/model_output/{experiment_name}_different_{variable_name}/{framework_name}/{experiment_name}_{variable_name}-{variable}_{framework_name}_{parse_model_name}.json"
+            
+            
+            now = datetime.now()
+            formatted_start_time = now.strftime("%Y-%m-%d %H:%M:%S")
+            start_time = time.time()
+            pid = os.getpid()
 
-        print("\n")
-        print("------Running Start------")
-        print("Settings")
-        print("framework_name: ", framework_name)
-        print("model_name: ", model_name)
-        print("useAPI: ", useAPI)
-        print("GPU Device: ", device)
-        print("testbed_path: ", testbed_path)
-        print("result_record_path: ", result_record_path)
-        print("Start Time: ", formatted_start_time)
-        print("PID :", pid)
-        print("\n")
+            print("\n")
+            print("------Running Start------")
+            print("Settings")
+            print("framework_name: ", framework_name)
+            print("model_name: ", model_name)
+            print("useAPI: ", useAPI)
+            print("GPU Device: ", device)
+            print("testbed_path: ", testbed_path)
+            print("result_record_path: ", result_record_path)
+            print("Start Time: ", formatted_start_time)
+            print("PID :", pid)
+            print("\n")
 
-        experiment(framework_name, 
-                model_name, 
-                device,
-                useAPI, 
-                testbed_path, 
-                result_record_path)
-        
-        end_time = time.time()
-        now = datetime.now()
-        formatted_end_time = now.strftime("%Y-%m-%d %H:%M:%S")
-        delta = timedelta(seconds=end_time-start_time)
-        print("\n")
-        print("End Time: ", formatted_end_time)
-        print("Time Cost: ", delta)
-        print("\n")
+            experiment(framework_name, 
+                    model_name, 
+                    device,
+                    useAPI, 
+                    testbed_path, 
+                    result_record_path)
+            
+            end_time = time.time()
+            now = datetime.now()
+            formatted_end_time = now.strftime("%Y-%m-%d %H:%M:%S")
+            delta = timedelta(seconds=end_time-start_time)
+            print("\n")
+            print("End Time: ", formatted_end_time)
+            print("Time Cost: ", delta)
+            print("\n")
 
-        if useAPI is True:
-            time.sleep(60)
+            if useAPI is True:
+                time.sleep(60)
 
 
 """
